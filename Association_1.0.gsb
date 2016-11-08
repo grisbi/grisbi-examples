@@ -1,0 +1,1538 @@
+<?xml version="1.0"?>
+<Grisbi>
+	<General
+		File_version="0.6.0"
+		Grisbi_version="0.9.4 pour windows"
+		Crypt_file="0"
+		Archive_file="0"
+		File_title="ASSOGRISBI"
+		General_address="(null)"
+		Second_general_address="(null)"
+		Date_format="%d/%m/%Y"
+		Decimal_point=","
+		Thousands_separator=" "
+		Party_list_currency_number="1"
+		Category_list_currency_number="1"
+		Budget_list_currency_number="1"
+		Navigation_list_order="0-2-3-4-5-6-7"
+		Scheduler_view="0"
+		Scheduler_custom_number="0"
+		Scheduler_custom_menu="0"
+		Import_interval_search="2"
+		Import_extract_number_for_check="0"
+		Import_fusion_transactions="0"
+		Import_categorie_for_payee="0"
+		Import_fyear_by_value_date="0"
+		Reconcile_end_date="0"
+		Use_logo="1"
+		Name_logo="(null)"
+		Is_pixmaps_dir="1"
+		Remind_display_per_account="1"
+		Transactions_view="18-1-3-13-5-6-7-0-0-12-0-9-8-0-0-0-15-0-0-0-0-0-0-0-0-0-0-0"
+		One_line_showed="0"
+		Two_lines_showed="0"
+		Three_lines_showed="0"
+		Remind_form_per_account="0"
+		Transaction_column_width="9-11-41-6-13-16-5"
+		Transaction_column_align="1-1-0-1-2-2-2"
+		Scheduler_column_width="11-13-37-13-13-12-14"
+		Combofix_mixed_sort="0"
+		Combofix_max_item="0"
+		Combofix_case_sensitive="0"
+		Combofix_force_payee="0"
+		Combofix_force_category="0"
+		Automatic_amount_separator="0"
+		CSV_separator="(null)"
+		CSV_skipped_lines="0-0-0-0-0-0-0-0-0-0"
+		Metatree_sort_transactions="1"
+		Add_archive_in_total_balance="1"
+		Bet_array_column_width="15-41-15-15-15"
+		Bet_capital="1000.00"
+		Bet_currency="1"
+		Bet_taux_annuel="4.00"
+		Bet_index_duree="0"
+		Bet_frais="0.00"
+		Bet_type_taux="1" />
+	<Color
+		Background_color_0_red="55000"
+		Background_color_0_green="55000"
+		Background_color_0_blue="65535"
+		Background_color_1_red="65535"
+		Background_color_1_green="65535"
+		Background_color_1_blue="65535"
+		Couleur_jour_red="55512"
+		Couleur_jour_green="55512"
+		Couleur_jour_blue="55512"
+		Background_scheduled_red="50000"
+		Background_scheduled_green="50000"
+		Background_scheduled_blue="50000"
+		Background_archive_red="15000"
+		Background_archive_green="30000"
+		Background_archive_blue="10000"
+		Selection_red="63000"
+		Selection_green="40000"
+		Selection_blue="40000"
+		Background_split_red="61423"
+		Background_split_green="50629"
+		Background_split_blue="50629"
+		Text_color_0_red="0"
+		Text_color_0_green="0"
+		Text_color_0_blue="0"
+		Text_color_1_red="65535"
+		Text_color_1_green="0"
+		Text_color_1_blue="0"
+		Entry_error_color_red="65535"
+		Entry_error_color_green="0"
+		Entry_error_color_blue="0"
+		Couleur_bet_division_red="64550"
+		Couleur_bet_division_green="65535"
+		Couleur_bet_division_blue="33466"
+		Couleur_bet_future_red="31829"
+		Couleur_bet_future_green="51015"
+		Couleur_bet_future_blue="35908"
+		Couleur_bet_solde_red="2318"
+		Couleur_bet_solde_green="65535"
+		Couleur_bet_solde_blue="60331"
+		Couleur_bet_transfert_red="31829"
+		Couleur_bet_transfert_green="51015"
+		Couleur_bet_transfert_blue="35908" />
+	<Print
+		Draw_lines="1"
+		Draw_column="1"
+		Draw_background="0"
+		Draw_archives="0"
+		Draw_columns_name="1"
+		Draw_title="0"
+		Draw_interval_dates="0"
+		Draw_dates_are_value_dates="0"
+		Font_transactions="Times New Roman, 12"
+		Font_title="sans 12"
+		Report_font_transactions="Sans 10"
+		Report_font_title="Sans 12" />
+	<Currency Nb="1" Na="Euro" Co="€" Ico="EUR" Fl="2" />
+	<Account
+		Name="102 - Fonds associatifs"
+		Id="(null)"
+		Number="4"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="11"
+		Default_credit_method="11"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="11"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="12 - Résultat"
+		Id="(null)"
+		Number="11"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="17"
+		Default_credit_method="17"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="17"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="401 - Fournisseurs"
+		Id="(null)"
+		Number="5"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="12"
+		Default_credit_method="12"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="12"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="411 - Clients"
+		Id="(null)"
+		Number="9"
+		Owner="(null)"
+		Kind="3"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="0"
+		Default_credit_method="0"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="(null)"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="-1" />
+	<Account
+		Name="461 - Président"
+		Id="(null)"
+		Number="10"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="-1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="16"
+		Default_credit_method="16"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="16"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="470 - Compte d&apos;Attente"
+		Id="(null)"
+		Number="6"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="13"
+		Default_credit_method="13"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="13"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="5112 - Chèques à encaisser"
+		Id="(null)"
+		Number="3"
+		Owner="(null)"
+		Kind="0"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="9"
+		Default_credit_method="7"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="6/7/9/10"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="514 - Banque Postale"
+		Id="(null)"
+		Number="1"
+		Owner="(null)"
+		Kind="0"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="5"
+		Default_credit_method="2"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="1/2/3/4/5/18"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="531 - Caisse"
+		Id="(null)"
+		Number="2"
+		Owner="(null)"
+		Kind="1"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="0"
+		Default_credit_method="0"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="(null)"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="890 - Bilan d&apos;ouverture"
+		Id="(null)"
+		Number="8"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="19"
+		Default_credit_method="15"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="15/19/20"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="891 - Bilan de clôture"
+		Id="(null)"
+		Number="12"
+		Owner="(null)"
+		Kind="3"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="0"
+		Default_credit_method="0"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="(null)"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-0-0-10-7-11-12-0-0-0-9-17-0-0-0-0-0-0-0-0-0"
+		Form_columns_width="18-48-10-22-0-0"
+		Bet_use_budget="-1" />
+	<Payment Number="1" Name="Virement" Sign="2" Show_entry="1" Automatic_number="1" Current_number="(null)" Account="1" />
+	<Payment Number="2" Name="Chèque" Sign="2" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="3" Name="Carte de crédit" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="4" Name="Prélèvement" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="5" Name="Chèque" Sign="1" Show_entry="1" Automatic_number="1" Current_number="1003" Account="1" />
+	<Payment Number="6" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="3" />
+	<Payment Number="7" Name="Chéque" Sign="2" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="3" />
+	<Payment Number="9" Name="Dépôt" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="3" />
+	<Payment Number="10" Name="Chèque" Sign="1" Show_entry="1" Automatic_number="1" Current_number="(null)" Account="3" />
+	<Payment Number="11" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="4" />
+	<Payment Number="12" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="5" />
+	<Payment Number="13" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="6" />
+	<Payment Number="15" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="8" />
+	<Payment Number="16" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="10" />
+	<Payment Number="17" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="11" />
+	<Payment Number="18" Name="Dépôt" Sign="2" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="19" Name="Sans" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="8" />
+	<Payment Number="20" Name="Sans" Sign="0" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="8" />
+	<Transaction Ac="8" Nb="1" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="1" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="8" Nb="2" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-300.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="3" Mo="1" />
+	<Transaction Ac="1" Nb="3" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="300.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="2" Mo="0" />
+	<Transaction Ac="8" Nb="4" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-50.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="5" Mo="1" />
+	<Transaction Ac="2" Nb="5" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="50.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="4" Mo="0" />
+	<Transaction Ac="8" Nb="6" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-150.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="7" Mo="1" />
+	<Transaction Ac="3" Nb="7" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="150.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="7" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="6" Mo="0" />
+	<Transaction Ac="8" Nb="8" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="1" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="8" Nb="9" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="350.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="10" Mo="8" />
+	<Transaction Ac="4" Nb="10" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-350.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="11" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="9" Mo="0" />
+	<Transaction Ac="8" Nb="11" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="12" Mo="8" />
+	<Transaction Ac="10" Nb="12" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="16" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="11" Mo="0" />
+	<Transaction Ac="5" Nb="15" Id="(null)" Dt="02/02/2012" Dv="(null)" Cu="1" Am="-20.00" Exb="0" Exr="0.00" Exf="0.00" Pa="3" Ca="66" Sca="17" Br="0" No="(null)" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="16" Id="(null)" Dt="02/02/2012" Dv="(null)" Cu="1" Am="-20.00" Exb="0" Exr="0.00" Exf="0.00" Pa="4" Ca="0" Sca="0" Br="0" No="rbt tire bouchon" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="17" Mo="0" />
+	<Transaction Ac="5" Nb="17" Id="(null)" Dt="02/02/2012" Dv="(null)" Cu="1" Am="20.00" Exb="0" Exr="0.00" Exf="0.00" Pa="4" Ca="0" Sca="0" Br="0" No="rbt tire bouchon" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="16" Mo="0" />
+	<Transaction Ac="5" Nb="18" Id="(null)" Dt="02/02/2012" Dv="(null)" Cu="1" Am="-80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="5" Ca="66" Sca="16" Br="0" No="(null)" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="19" Id="(null)" Dt="03/01/2012" Dv="(null)" Cu="1" Am="-80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="5" Ca="0" Sca="0" Br="0" No="(null)" Pn="5" Pc="1004" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="20" Mo="0" />
+	<Transaction Ac="5" Nb="20" Id="(null)" Dt="03/01/2012" Dv="(null)" Cu="1" Am="80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="5" Ca="0" Sca="0" Br="0" No="(null)" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="19" Mo="0" />
+	<Transaction Ac="2" Nb="21" Id="(null)" Dt="02/02/2012" Dv="(null)" Cu="1" Am="100.00" Exb="0" Exr="0.00" Exf="0.00" Pa="6" Ca="76" Sca="4" Br="0" No="Buvette" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="22" Id="(null)" Dt="01/02/2012" Dv="(null)" Cu="1" Am="150.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="23" Mo="0" />
+	<Transaction Ac="3" Nb="23" Id="(null)" Dt="01/02/2012" Dv="(null)" Cu="1" Am="-150.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="22" Mo="0" />
+	<Transaction Ac="1" Nb="24" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-300.00" Exb="0" Exr="0.00" Exf="0.00" Pa="34" Ca="66" Sca="20" Br="0" No="Achat de boissons" Pn="5" Pc="1002" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="25" Id="(null)" Dt="02/15/2012" Dv="(null)" Cu="1" Am="600.00" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="76" Sca="4" Br="0" No="Buvette" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="26" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-150.00" Exb="0" Exr="0.00" Exf="0.00" Pa="5" Ca="66" Sca="16" Br="0" No="(null)" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="27" Id="(null)" Dt="02/15/2012" Dv="(null)" Cu="1" Am="-6000.00" Exb="0" Exr="0.00" Exf="0.00" Pa="36" Ca="68" Sca="13" Br="0" No="(null)" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="2" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="28" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-50.00" Exb="0" Exr="0.00" Exf="0.00" Pa="35" Ca="68" Sca="22" Br="0" No="Abt téléphonique" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="30" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-900.00" Exb="0" Exr="0.00" Exf="0.00" Pa="12" Ca="66" Sca="17" Br="0" No="(null)" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="31" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-100.00" Exb="0" Exr="0.00" Exf="0.00" Pa="13" Ca="66" Sca="18" Br="0" No="(null)" Pn="3" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="32" Id="(null)" Dt="10/10/2012" Dv="(null)" Cu="1" Am="-75.00" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="72" Sca="1" Br="0" No="(null)" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="33" Id="(null)" Dt="10/20/2012" Dv="(null)" Cu="1" Am="700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="6" Ca="76" Sca="4" Br="0" No="Buvette" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="44" Id="(null)" Dt="01/10/2012" Dv="(null)" Cu="1" Am="1500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="18" Ca="80" Sca="4" Br="0" No="Adhésions 2012" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="8" Nb="45" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="70.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="46" Mo="8" />
+	<Transaction Ac="11" Nb="46" Id="(null)" Dt="01/01/2012" Dv="(null)" Cu="1" Am="-70.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="45" Mo="0" />
+	<Transaction Ac="11" Nb="47" Id="(null)" Dt="01/10/2012" Dv="(null)" Cu="1" Am="70.00" Exb="0" Exr="0.00" Exf="0.00" Pa="19" Ca="0" Sca="0" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="48" Mo="0" />
+	<Transaction Ac="4" Nb="48" Id="(null)" Dt="01/10/2012" Dv="(null)" Cu="1" Am="-70.00" Exb="0" Exr="0.00" Exf="0.00" Pa="19" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="47" Mo="0" />
+	<Transaction Ac="2" Nb="50" Id="(null)" Dt="01/22/2012" Dv="(null)" Cu="1" Am="-80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="20" Ca="0" Sca="0" Br="0" No="Rembt avance" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="51" Mo="0" />
+	<Transaction Ac="10" Nb="51" Id="(null)" Dt="01/22/2012" Dv="(null)" Cu="1" Am="80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="20" Ca="0" Sca="0" Br="0" No="Rembt avance" Pn="16" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="50" Mo="0" />
+	<Transaction Ac="1" Nb="52" Id="(null)" Dt="01/20/2012" Dv="(null)" Cu="1" Am="-60.00" Exb="0" Exr="0.00" Exf="0.00" Pa="22" Ca="66" Sca="18" Br="0" No="Cartouches d&apos;encre" Pn="5" Pc="1001" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="53" Id="(null)" Dt="01/24/2012" Dv="(null)" Cu="1" Am="-25.00" Exb="0" Exr="0.00" Exf="0.00" Pa="24" Ca="66" Sca="20" Br="0" No="Achat boissons" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="54" Id="(null)" Dt="02/15/2012" Dv="(null)" Cu="1" Am="-300.00" Exb="0" Exr="0.00" Exf="0.00" Pa="34" Ca="66" Sca="20" Br="0" No="Achat de boissons" Pn="5" Pc="1003" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="55" Id="(null)" Dt="05/10/2012" Dv="(null)" Cu="1" Am="-250.00" Exb="0" Exr="0.00" Exf="0.00" Pa="34" Ca="66" Sca="20" Br="0" No="Achat de boissons" Pn="5" Pc="1005" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="56" Id="(null)" Dt="08/10/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="34" Ca="66" Sca="20" Br="0" No="Achats boissons" Pn="5" Pc="1006" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="57" Id="(null)" Dt="12/10/2012" Dv="(null)" Cu="1" Am="-700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="34" Ca="66" Sca="20" Br="0" No="Achats boissons" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="3" Nb="58" Id="(null)" Dt="02/05/2012" Dv="(null)" Cu="1" Am="6200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="25" Ca="76" Sca="5" Br="0" No="Voyage yyy" Pn="7" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="2" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="3" Nb="59" Id="(null)" Dt="10/20/2012" Dv="(null)" Cu="1" Am="1500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="18" Ca="80" Sca="4" Br="0" No="Adhésions 2012" Pn="7" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="60" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="6200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="61" Mo="0" />
+	<Transaction Ac="3" Nb="61" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-6200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="60" Mo="0" />
+	<Transaction Ac="1" Nb="62" Id="(null)" Dt="10/25/2012" Dv="(null)" Cu="1" Am="1500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="63" Mo="0" />
+	<Transaction Ac="3" Nb="63" Id="(null)" Dt="10/25/2012" Dv="(null)" Cu="1" Am="-1500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="23" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="62" Mo="0" />
+	<Transaction Ac="2" Nb="64" Id="(null)" Dt="10/10/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="65" Mo="0" />
+	<Transaction Ac="1" Nb="65" Id="(null)" Dt="10/10/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="64" Mo="0" />
+	<Transaction Ac="2" Nb="66" Id="(null)" Dt="10/22/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="67" Mo="0" />
+	<Transaction Ac="1" Nb="67" Id="(null)" Dt="10/22/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="66" Mo="0" />
+	<Transaction Ac="2" Nb="68" Id="(null)" Dt="02/28/2012" Dv="(null)" Cu="1" Am="400.00" Exb="0" Exr="0.00" Exf="0.00" Pa="28" Ca="76" Sca="4" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="1" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="69" Id="(null)" Dt="01/25/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="28" Ca="76" Sca="4" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="6" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="70" Id="(null)" Dt="02/14/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="71" Mo="0" />
+	<Transaction Ac="1" Nb="71" Id="(null)" Dt="02/14/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="70" Mo="0" />
+	<Transaction Ac="2" Nb="72" Id="(null)" Dt="01/15/2012" Dv="(null)" Cu="1" Am="-1200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="73" Mo="0" />
+	<Transaction Ac="1" Nb="73" Id="(null)" Dt="01/15/2012" Dv="(null)" Cu="1" Am="1200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="72" Mo="0" />
+	<Transaction Ac="2" Nb="74" Id="(null)" Dt="02/20/2012" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="75" Mo="0" />
+	<Transaction Ac="1" Nb="75" Id="(null)" Dt="02/20/2012" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="0" Sca="0" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="74" Mo="0" />
+	<Transaction Ac="11" Nb="76" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="9510.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="0" Sca="0" Br="1" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="11" Nb="77" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="230.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="66" Sca="16" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="78" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="920.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="66" Sca="17" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="79" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="160.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="66" Sca="18" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="80" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="2075.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="66" Sca="20" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="81" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="6000.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="68" Sca="13" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="82" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="50.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="68" Sca="22" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="83" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="75.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="72" Sca="1" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="76" />
+	<Transaction Ac="11" Nb="84" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-11500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="15" Ca="0" Sca="0" Br="1" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="11" Nb="85" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-2300.00" Exb="0" Exr="0.00" Exf="0.00" Pa="15" Ca="76" Sca="4" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="84" />
+	<Transaction Ac="11" Nb="86" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-6200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="15" Ca="76" Sca="5" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="84" />
+	<Transaction Ac="11" Nb="87" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-3000.00" Exb="0" Exr="0.00" Exf="0.00" Pa="15" Ca="80" Sca="4" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="84" />
+	<Transaction Ac="12" Nb="88" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="3110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="31" Ca="0" Sca="0" Br="1" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="12" Nb="89" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="2565.00" Exb="0" Exr="0.00" Exf="0.00" Pa="31" Ca="0" Sca="0" Br="0" No="(null)" Pn="5" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="90" Mo="88" />
+	<Transaction Ac="1" Nb="90" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-2565.00" Exb="0" Exr="0.00" Exf="0.00" Pa="31" Ca="0" Sca="0" Br="0" No="(null)" Pn="5" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="89" Mo="0" />
+	<Transaction Ac="12" Nb="91" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="545.00" Exb="0" Exr="0.00" Exf="0.00" Pa="31" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="92" Mo="88" />
+	<Transaction Ac="2" Nb="92" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-545.00" Exb="0" Exr="0.00" Exf="0.00" Pa="31" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="91" Mo="0" />
+	<Transaction Ac="12" Nb="93" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-3110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="1" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="12" Nb="94" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-420.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="95" Mo="93" />
+	<Transaction Ac="4" Nb="95" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="420.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="11" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="94" Mo="0" />
+	<Transaction Ac="12" Nb="96" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="97" Mo="93" />
+	<Transaction Ac="5" Nb="97" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="96" Mo="0" />
+	<Transaction Ac="12" Nb="98" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="-1990.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="99" Mo="93" />
+	<Transaction Ac="11" Nb="99" Id="(null)" Dt="12/31/2012" Dv="(null)" Cu="1" Am="1990.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="0" Sca="0" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="98" Mo="0" />
+	<Transaction Ac="8" Nb="100" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-3110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="1" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="8" Nb="101" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-2565.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="102" Mo="100" />
+	<Transaction Ac="1" Nb="102" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="2565.00" Exb="0" Exr="0.00" Exf="0.00" Pa="32" Ca="0" Sca="0" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="101" Mo="0" />
+	<Transaction Ac="8" Nb="103" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-545.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="19" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="104" Mo="100" />
+	<Transaction Ac="2" Nb="104" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="545.00" Exb="0" Exr="0.00" Exf="0.00" Pa="32" Ca="0" Sca="0" Br="0" No="(null)" Pn="15" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="103" Mo="0" />
+	<Transaction Ac="8" Nb="105" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="3110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="1" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="8" Nb="106" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="420.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="107" Mo="105" />
+	<Transaction Ac="4" Nb="107" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-420.00" Exb="0" Exr="0.00" Exf="0.00" Pa="33" Ca="0" Sca="0" Br="0" No="(null)" Pn="11" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="106" Mo="0" />
+	<Transaction Ac="8" Nb="108" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="109" Mo="105" />
+	<Transaction Ac="5" Nb="109" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-700.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="12" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="108" Mo="0" />
+	<Transaction Ac="8" Nb="110" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="1990.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="20" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="111" Mo="105" />
+	<Transaction Ac="11" Nb="111" Id="(null)" Dt="01/01/2013" Dv="(null)" Cu="1" Am="-1990.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="0" Sca="0" Br="0" No="(null)" Pn="17" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="110" Mo="0" />
+	<Party Nb="1" Na="A nouveau" Txt="(null)" Search="(null)" />
+	<Party Nb="2" Na="Reprise balance" Txt="(null)" Search="(null)" />
+	<Party Nb="3" Na="caviste du commerce" Txt="(null)" Search="(null)" />
+	<Party Nb="4" Na="Regul avance" Txt="(null)" Search="(null)" />
+	<Party Nb="5" Na="STATION" Txt="(null)" Search="(null)" />
+	<Party Nb="6" Na="Buvette" Txt="(null)" Search="(null)" />
+	<Party Nb="7" Na="ReMISE DE CHQ" Txt="(null)" Search="(null)" />
+	<Party Nb="8" Na="F/ Truc  Enplume" Txt="(null)" Search="(null)" />
+	<Party Nb="9" Na="vENTEs au comptant" Txt="(null)" Search="(null)" />
+	<Party Nb="10" Na="F/Car Naval" Txt="(null)" Search="(null)" />
+	<Party Nb="11" Na="F/Kiwi" Txt="(null)" Search="(null)" />
+	<Party Nb="12" Na="Frais divers" Txt="(null)" Search="(null)" />
+	<Party Nb="13" Na="Au Martin Pêcheur" Txt="(null)" Search="(null)" />
+	<Party Nb="14" Na="banque" Txt="(null)" Search="(null)" />
+	<Party Nb="15" Na="virement des produits à Résultat" Txt="(null)" Search="(null)" />
+	<Party Nb="16" Na="virement des charges à Résultat" Txt="(null)" Search="(null)" />
+	<Party Nb="17" Na="Affectation résultat70" Txt="(null)" Search="(null)" />
+	<Party Nb="18" Na="Adhérents " Txt="(null)" Search="(null)" />
+	<Party Nb="19" Na="Affectation résultat 2011" Txt="(null)" Search="(null)" />
+	<Party Nb="20" Na="Président" Txt="(null)" Search="(null)" />
+	<Party Nb="21" Na="banque Postale" Txt="(null)" Search="(null)" />
+	<Party Nb="22" Na="Bureau Tique" Txt="(null)" Search="(null)" />
+	<Party Nb="23" Na="Remise de chèques" Txt="(null)" Search="(null)" />
+	<Party Nb="24" Na="Super Marché" Txt="(null)" Search="(null)" />
+	<Party Nb="25" Na="Adhérents liste A" Txt="(null)" Search="(null)" />
+	<Party Nb="26" Na="Dépot à la Banque" Txt="(null)" Search="(null)" />
+	<Party Nb="27" Na="Dépôt banque" Txt="(null)" Search="(null)" />
+	<Party Nb="28" Na="Recette buvette" Txt="(null)" Search="(null)" />
+	<Party Nb="29" Na="cloture compte d&apos;actif" Txt="(null)" Search="(null)" />
+	<Party Nb="30" Na="clôture comptes de passif" Txt="(null)" Search="(null)" />
+	<Party Nb="31" Na="cloture comptes d&apos;actif" Txt="(null)" Search="(null)" />
+	<Party Nb="32" Na="ouverture  cpte actif" Txt="(null)" Search="(null)" />
+	<Party Nb="33" Na="ouverture comptes de passif" Txt="(null)" Search="(null)" />
+	<Party Nb="34" Na="Truc  Enplume" Txt="(null)" Search="(null)" />
+	<Party Nb="35" Na="Kiwi" Txt="(null)" Search="(null)" />
+	<Party Nb="36" Na="Car Naval" Txt="(null)" Search="(null)" />
+	<Category Nb="25" Na="10. Fonds associatifs et réserves" Kd="0" />
+	<Sub_category Nbc="25" Nb="1" Na="1020. Fonds associatifs sans droit de reprise" />
+	<Sub_category Nbc="25" Nb="2" Na="1021. Valeur du patrimoine intégré" />
+	<Sub_category Nbc="25" Nb="3" Na="1022. Fonds statutaires (à déclarer en fonction des statuts)" />
+	<Sub_category Nbc="25" Nb="4" Na="1024. Apports sans droit de reprise" />
+	<Sub_category Nbc="25" Nb="5" Na="1025. Legs et donations avec contrepartie d&apos;actifs immobilisés" />
+	<Sub_category Nbc="25" Nb="6" Na="1026. Subventions d&apos;investissement affectées à des biens renouvelables" />
+	<Sub_category Nbc="25" Nb="7" Na="1030. Fonds associatifs avec droit de reprise" />
+	<Sub_category Nbc="25" Nb="8" Na="1034. Apports avec droit de reprise" />
+	<Sub_category Nbc="25" Nb="10" Na="1035. Legs et donations avec contreparties d&apos;actifs immobilisés assorties d&apos;une obligation ou d&apos;une condition" />
+	<Sub_category Nbc="25" Nb="11" Na="1036. Subventions d&apos;investissement affectées à des biens renouvelables" />
+	<Sub_category Nbc="25" Nb="12" Na="1050. Écarts et réévaluation" />
+	<Sub_category Nbc="25" Nb="13" Na="1051. Écarts et réévaluations sur des biens sans droit de reprise" />
+	<Sub_category Nbc="25" Nb="14" Na="1052. Écarts et réévaluations sur des biens avec droit de reprise" />
+	<Sub_category Nbc="25" Nb="15" Na="1060. Réserves" />
+	<Sub_category Nbc="25" Nb="16" Na="1062. Réserves indisponibles" />
+	<Sub_category Nbc="25" Nb="17" Na="1063. Réserves statutaires ou contractuelles" />
+	<Sub_category Nbc="25" Nb="18" Na="1064. Réserves réglementées" />
+	<Sub_category Nbc="25" Nb="19" Na="1068. Autres réserves (dont réserves pour projet associatif)" />
+	<Category Nb="26" Na="11. Éléments en instance d&apos;affectation" Kd="0" />
+	<Sub_category Nbc="26" Nb="1" Na="110. Report à nouveau" />
+	<Sub_category Nbc="26" Nb="2" Na="115. Résultats sous contrôle de tiers financeur" />
+	<Category Nb="27" Na="12. Résultat net de l&apos;exercice (excédent ou déficit)" Kd="0" />
+	<Sub_category Nbc="27" Nb="1" Na="120. Résultat de l&apos;exercice (excédent)" />
+	<Sub_category Nbc="27" Nb="2" Na="129. Résultat de l&apos;exercice (déficit)" />
+	<Category Nb="28" Na="13. Subventions d&apos;investissement affectées à des biens non renouvelables" Kd="0" />
+	<Sub_category Nbc="28" Nb="1" Na="1310. Subventions d&apos;investissements (renouvelables)" />
+	<Sub_category Nbc="28" Nb="2" Na="1311. État" />
+	<Sub_category Nbc="28" Nb="3" Na="1312. Régions" />
+	<Sub_category Nbc="28" Nb="4" Na="1313. Départements" />
+	<Sub_category Nbc="28" Nb="5" Na="1314. Communes" />
+	<Sub_category Nbc="28" Nb="6" Na="1315. Collectivités publiques" />
+	<Sub_category Nbc="28" Nb="7" Na="1316. Entreprise publiques" />
+	<Sub_category Nbc="28" Nb="8" Na="1317. Entreprises et organismes privés" />
+	<Sub_category Nbc="28" Nb="9" Na="1318. Autres" />
+	<Sub_category Nbc="28" Nb="10" Na="1380. Autres subventions d&apos;investissement" />
+	<Sub_category Nbc="28" Nb="11" Na="1390. Subventions d&apos;investissement inscrites au compte de résultat" />
+	<Category Nb="29" Na="14. Provisions réglementées" Kd="0" />
+	<Sub_category Nbc="29" Nb="1" Na="1420. Provisions réglementées relatives aux immobilisations" />
+	<Sub_category Nbc="29" Nb="2" Na="1430. Provisions réglementées relatives aux stocks" />
+	<Sub_category Nbc="29" Nb="3" Na="1424. Provisions pour investissement (participation des salariés)" />
+	<Sub_category Nbc="29" Nb="4" Na="1431. Hausse des prix" />
+	<Sub_category Nbc="29" Nb="5" Na="1432. Fluctuations des cours" />
+	<Sub_category Nbc="29" Nb="6" Na="1440. Provisions réglementées relatives aux autres éléments de l&apos;actif" />
+	<Sub_category Nbc="29" Nb="7" Na="1450. Amortissements dérogatoires" />
+	<Sub_category Nbc="29" Nb="8" Na="1460. Provisions spéciales de réévaluation" />
+	<Sub_category Nbc="29" Nb="9" Na="1480. Autres provisions réglementées" />
+	<Category Nb="30" Na="15. Provisions pour risques et charges" Kd="0" />
+	<Sub_category Nbc="30" Nb="1" Na="1510. Provisions pour risques" />
+	<Sub_category Nbc="30" Nb="2" Na="1511. Provisions pour litiges" />
+	<Sub_category Nbc="30" Nb="3" Na="1514. Provisions pour amendes et pénalités" />
+	<Sub_category Nbc="30" Nb="4" Na="1515. Provisions pour pertes de change" />
+	<Sub_category Nbc="30" Nb="5" Na="1516. Provisions pour risque d&apos;emploi" />
+	<Sub_category Nbc="30" Nb="6" Na="1518. Autres provisions pour risques" />
+	<Sub_category Nbc="30" Nb="7" Na="1530. Provisions pour pensions et obligations similaires" />
+	<Sub_category Nbc="30" Nb="8" Na="1550. Provisions pour impôts" />
+	<Sub_category Nbc="30" Nb="9" Na="1570. Provisions pour charges à répartir sur plusieurs exercices" />
+	<Sub_category Nbc="30" Nb="10" Na="1572. Provisions pour grosses réparations" />
+	<Sub_category Nbc="30" Nb="11" Na="1580. Autres provisions pour charges" />
+	<Sub_category Nbc="30" Nb="12" Na="1582. Provisions pour charges sociales et fiscales sur congés payés" />
+	<Category Nb="31" Na="16. Emprunt et dettes assimilées" Kd="0" />
+	<Sub_category Nbc="31" Nb="1" Na="1640. Emprunts auprès des établissements de crédit" />
+	<Sub_category Nbc="31" Nb="2" Na="1641. Emprunts (à détailler)" />
+	<Sub_category Nbc="31" Nb="3" Na="1650. Dépôts et cautionnements reçus" />
+	<Sub_category Nbc="31" Nb="4" Na="1651. Dépôts" />
+	<Sub_category Nbc="31" Nb="5" Na="1655. Cautionnements" />
+	<Sub_category Nbc="31" Nb="6" Na="1660. Participation des salariés aux résultats" />
+	<Sub_category Nbc="31" Nb="7" Na="1661. Comptes bloqués" />
+	<Sub_category Nbc="31" Nb="8" Na="1662. Fonds de participation" />
+	<Sub_category Nbc="31" Nb="9" Na="1670. Emprunts et dettes assortis de conditions particulières" />
+	<Sub_category Nbc="31" Nb="10" Na="1672. Titres associatifs" />
+	<Sub_category Nbc="31" Nb="11" Na="1680. Autres emprunts et dettes assimilées" />
+	<Sub_category Nbc="31" Nb="12" Na="1681. Autres emprunts (à détailler)" />
+	<Sub_category Nbc="31" Nb="13" Na="1685. Rentes viagères capitalisées" />
+	<Sub_category Nbc="31" Nb="14" Na="1687. Autres dettes (à détailler)" />
+	<Sub_category Nbc="31" Nb="15" Na="1688. Intérêts courus ( à détailler)" />
+	<Category Nb="32" Na="17. Dettes rattachées à des participations" Kd="0" />
+	<Category Nb="33" Na="18. Comptes de liaison des établissements (avec le siège social ou entre eux)" Kd="0" />
+	<Sub_category Nbc="33" Nb="1" Na="1810. Apports permanents entre siège social et établissement" />
+	<Sub_category Nbc="33" Nb="2" Na="1850. Biens et prestations de services échangés entre établissements et le siège social" />
+	<Sub_category Nbc="33" Nb="3" Na="1860. Biens et prestations de services échangés entre établissements (charges)" />
+	<Sub_category Nbc="33" Nb="4" Na="1670. Biens et prestations de services échangés entre établissements (produits)" />
+	<Category Nb="34" Na="19. Fonds dédiés" Kd="0" />
+	<Sub_category Nbc="34" Nb="1" Na="1940. Fonds dédiés sur subventions de fonctionnement" />
+	<Sub_category Nbc="34" Nb="2" Na="1950. Fonds dédiés sur dons manuels affectés" />
+	<Sub_category Nbc="34" Nb="3" Na="1970. Fonds dédiés sur legs et dons affectés" />
+	<Category Nb="35" Na="20. Immobilisations incorporelles" Kd="0" />
+	<Sub_category Nbc="35" Nb="1" Na="2010. Frais d&apos;établissement" />
+	<Sub_category Nbc="35" Nb="2" Na="2012. Frais de premier établissement" />
+	<Sub_category Nbc="35" Nb="3" Na="2060. Droit au bail" />
+	<Sub_category Nbc="35" Nb="4" Na="2080. Autres immobilisations incorporelles" />
+	<Category Nb="36" Na="21. Immobilisations corporelles" Kd="0" />
+	<Sub_category Nbc="36" Nb="1" Na="2110. Terrains" />
+	<Sub_category Nbc="36" Nb="2" Na="2120. Agencements et aménagements de terrains" />
+	<Sub_category Nbc="36" Nb="3" Na="2130. Constructions" />
+	<Sub_category Nbc="36" Nb="4" Na="2131. Bâtiments" />
+	<Sub_category Nbc="36" Nb="5" Na="2135. Installations générales, agencements, aménagements des constructions" />
+	<Sub_category Nbc="36" Nb="6" Na="2140. Constructions sur sol d&apos;autrui" />
+	<Sub_category Nbc="36" Nb="7" Na="2150. Installations techniques, matériels et outillages industriels" />
+	<Sub_category Nbc="36" Nb="8" Na="2151. Installations complexes spécialisées" />
+	<Sub_category Nbc="36" Nb="9" Na="2154. Matériels industriel" />
+	<Sub_category Nbc="36" Nb="10" Na="2155. Outillage industriel" />
+	<Sub_category Nbc="36" Nb="11" Na="2180. Autres immobilisations incorporelles" />
+	<Sub_category Nbc="36" Nb="12" Na="2181. Installations générales, agencements, aménagements divers" />
+	<Sub_category Nbc="36" Nb="13" Na="2182. Matériels de transport" />
+	<Sub_category Nbc="36" Nb="14" Na="2183. Matériels de bureau et matériels informatiques" />
+	<Sub_category Nbc="36" Nb="15" Na="2184. Mobilier" />
+	<Sub_category Nbc="36" Nb="16" Na="2185. Cheptel" />
+	<Category Nb="37" Na="22. Immobilisations mises en concession" Kd="0" />
+	<Sub_category Nbc="37" Nb="1" Na="2280. Immobilisations grevées de droits" />
+	<Sub_category Nbc="37" Nb="2" Na="2290. Droits des propriétaires" />
+	<Category Nb="38" Na="23. Immobilisations en cours" Kd="0" />
+	<Sub_category Nbc="38" Nb="1" Na="2310.Immobilisations corporelles en cours" />
+	<Sub_category Nbc="38" Nb="2" Na="2312. Terrains" />
+	<Sub_category Nbc="38" Nb="3" Na="2313. Constructions" />
+	<Sub_category Nbc="38" Nb="4" Na="2315. Installations techniques, matériels et outillages industriels" />
+	<Sub_category Nbc="38" Nb="5" Na="2318. Autres immobilisations corporelles" />
+	<Sub_category Nbc="38" Nb="6" Na="2320. Immobilisations incorporelles en cours" />
+	<Sub_category Nbc="38" Nb="7" Na="2380. Avances et acomptes versés sur commandes d&apos;immobilisations corporelles" />
+	<Category Nb="39" Na="26. Participations et créances rattachées à des participations" Kd="0" />
+	<Sub_category Nbc="39" Nb="1" Na="2610. Titres de participations" />
+	<Sub_category Nbc="39" Nb="2" Na="2660. Autres formes de participation" />
+	<Sub_category Nbc="39" Nb="3" Na="2670. Créances rattachées à des participations" />
+	<Sub_category Nbc="39" Nb="4" Na="2690. Versements restant à effectuer sur titres de participation non libérés" />
+	<Category Nb="40" Na="27. Autres immobilisations financières" Kd="0" />
+	<Sub_category Nbc="40" Nb="1" Na="2710. Titres immobilisés (droit de propriété)" />
+	<Sub_category Nbc="40" Nb="2" Na="2711. Actions" />
+	<Sub_category Nbc="40" Nb="3" Na="2720. Titres immobilisés (droit de créance)" />
+	<Sub_category Nbc="40" Nb="4" Na="2721. Obligations" />
+	<Sub_category Nbc="40" Nb="5" Na="2722. Bons" />
+	<Sub_category Nbc="40" Nb="6" Na="2728. Autres" />
+	<Sub_category Nbc="40" Nb="7" Na="2730. Titres immobilisés de l&apos;activité de portefeuille" />
+	<Sub_category Nbc="40" Nb="8" Na="2740. Prêts" />
+	<Sub_category Nbc="40" Nb="9" Na="2743. Prêts au personnel" />
+	<Sub_category Nbc="40" Nb="10" Na="2748. Autres prêts" />
+	<Sub_category Nbc="40" Nb="11" Na="2750. Dépôts et cautionnements versés" />
+	<Sub_category Nbc="40" Nb="12" Na="2751. Dépôts" />
+	<Sub_category Nbc="40" Nb="13" Na="2755. Cautionnements" />
+	<Sub_category Nbc="40" Nb="14" Na="2760. Autres créances immobilisées" />
+	<Sub_category Nbc="40" Nb="15" Na="2761. Créances diverses" />
+	<Sub_category Nbc="40" Nb="16" Na="2768. Intérêts courus (à détailler)" />
+	<Sub_category Nbc="40" Nb="17" Na="2790. Versements restant à effectuer sur titres immobilisés non libérés" />
+	<Category Nb="41" Na="28. Amortissements des immobilisations" Kd="0" />
+	<Sub_category Nbc="41" Nb="1" Na="2800. Amortissements des immobilisations incorporelles" />
+	<Sub_category Nbc="41" Nb="2" Na="2801. Frais d&apos;établissement (même ventilation que celle du compte 201)" />
+	<Sub_category Nbc="41" Nb="3" Na="2808. Autres immobilisations incorporelles" />
+	<Sub_category Nbc="41" Nb="4" Na="2810. Amortissements des immobilisations corporelles" />
+	<Sub_category Nbc="41" Nb="5" Na="2812. Agencements, aménagements des terrains (même ventilation que celle du compte 212)" />
+	<Sub_category Nbc="41" Nb="6" Na="2813. Constructions (même ventilation que celle du compte 213)" />
+	<Sub_category Nbc="41" Nb="7" Na="2814. Constructions sur sol d&apos;autrui (même ventilation que celle du compte 214)" />
+	<Sub_category Nbc="41" Nb="8" Na="2815. Installations techniques, matériels et outillages industriels (même ventilation que celle du compte 215)" />
+	<Sub_category Nbc="41" Nb="9" Na="2818. Autres immobilisations corporelles (même ventilation que celle du compte 218)" />
+	<Category Nb="42" Na="29. Provision pour dépréciation des immobilisations" Kd="0" />
+	<Sub_category Nbc="42" Nb="1" Na="2900. Provisions pour dépréciations des immobilisations incorporelles" />
+	<Sub_category Nbc="42" Nb="2" Na="2906. Droit au bail" />
+	<Sub_category Nbc="42" Nb="3" Na="2908. Autres immobilisations incorporelles" />
+	<Sub_category Nbc="42" Nb="4" Na="2910. Provisions pour dépréciation des immobilisations corporelles" />
+	<Sub_category Nbc="42" Nb="5" Na="2911. Terrains" />
+	<Sub_category Nbc="42" Nb="6" Na="2960. Provisions pour dépréciation des participations et créances rattachées à des participations" />
+	<Sub_category Nbc="42" Nb="7" Na="2961. Titres de participations" />
+	<Sub_category Nbc="42" Nb="8" Na="2966. Autres formes de participations" />
+	<Sub_category Nbc="42" Nb="9" Na="2967. Créances rattachées à des participations (même ventilation que celle du compte 267)" />
+	<Sub_category Nbc="42" Nb="10" Na="2970. Provisions pour dépréciation des autres immobilisations financières" />
+	<Sub_category Nbc="42" Nb="11" Na="2971. Titres immobilisés (droits de propriété) (même ventilation que celle du compte 271)" />
+	<Sub_category Nbc="42" Nb="12" Na="2972. Titres immobilisés (droits de créance) ( même ventilation que celle du compte 272)" />
+	<Sub_category Nbc="42" Nb="13" Na="2974. Prêts (même ventilation que celle du compte 274)" />
+	<Sub_category Nbc="42" Nb="14" Na="2975. Dépôts et cautionnements versés (même ventilation que celle du compte 275)" />
+	<Sub_category Nbc="42" Nb="15" Na="2976. Autres créances immobilisées (même ventilation que celle du compte 276)" />
+	<Category Nb="43" Na="31. Matières premières et fournitures" Kd="0" />
+	<Sub_category Nbc="43" Nb="1" Na="3110. Matières premières" />
+	<Sub_category Nbc="43" Nb="2" Na="3170. Fournitures" />
+	<Category Nb="44" Na="32. Autres approvisionnements" Kd="0" />
+	<Sub_category Nbc="44" Nb="1" Na="3210. Matières consommables" />
+	<Sub_category Nbc="44" Nb="2" Na="3220. Fournitures consommables" />
+	<Sub_category Nbc="44" Nb="3" Na="3260. Emballages" />
+	<Category Nb="45" Na="33. En-cours de production de biens" Kd="0" />
+	<Sub_category Nbc="45" Nb="1" Na="3310. Produits en cours" />
+	<Sub_category Nbc="45" Nb="2" Na="3350. Travaux en cours" />
+	<Category Nb="46" Na="34. En-cours de production de services" Kd="0" />
+	<Sub_category Nbc="46" Nb="1" Na="3410. Produits en cours" />
+	<Sub_category Nbc="46" Nb="2" Na="3450. Prestations de service en cours" />
+	<Category Nb="47" Na="35. Stocks de produits" Kd="0" />
+	<Sub_category Nbc="47" Nb="1" Na="3510. Produits intermédiaires" />
+	<Sub_category Nbc="47" Nb="2" Na="3550. Produits finis" />
+	<Category Nb="48" Na="37. Stocks de marchandises" Kd="0" />
+	<Category Nb="49" Na="39. Provisions pour dépréciation des stocks et en-cours" Kd="0" />
+	<Sub_category Nbc="49" Nb="1" Na="3910. Provisions pour dépréciation des matières premières et fournitures" />
+	<Sub_category Nbc="49" Nb="2" Na="3920. Provisions pour dépréciation des autres approvisionnements" />
+	<Sub_category Nbc="49" Nb="3" Na="3930. Provisions pour dépréciation des en-cours de production de biens" />
+	<Sub_category Nbc="49" Nb="4" Na="3940. Provisions pour dépréciation des en-cours de production de services" />
+	<Sub_category Nbc="49" Nb="5" Na="3950. Provisions pour dépréciation des stocks de produits" />
+	<Sub_category Nbc="49" Nb="6" Na="3970. Provisions pour dépréciation des stocks de marchandises" />
+	<Category Nb="50" Na="40. Fournisseurs et comptes rattachés" Kd="0" />
+	<Sub_category Nbc="50" Nb="1" Na="4010. Fournisseurs" />
+	<Sub_category Nbc="50" Nb="2" Na="4011. Fournisseurs. Achats de biens ou de prestations de service" />
+	<Sub_category Nbc="50" Nb="3" Na="4040. Fournisseurs d&apos;immobilisations" />
+	<Sub_category Nbc="50" Nb="4" Na="4041. Fournisseurs. Achats d&apos;immobilisations" />
+	<Sub_category Nbc="50" Nb="5" Na="4047. Fournisseurs d&apos;immobilisations. Retenues de garantie" />
+	<Sub_category Nbc="50" Nb="6" Na="4080. Fournisseurs. Factures non parvenues" />
+	<Sub_category Nbc="50" Nb="7" Na="4081. Fournisseurs. Achats de biens ou prestations de service" />
+	<Sub_category Nbc="50" Nb="8" Na="4084. Fournisseurs. Achats d&apos;immobilisations" />
+	<Sub_category Nbc="50" Nb="9" Na="4090. Fournisseurs débiteurs" />
+	<Sub_category Nbc="50" Nb="10" Na="4091. Fournisseurs. Avances et acomptes versés sur commandes" />
+	<Sub_category Nbc="50" Nb="11" Na="4096. Fournisseurs. Créances pour emballage et matériel à rendre" />
+	<Category Nb="51" Na="41. Usagers et comptes rattachés" Kd="0" />
+	<Sub_category Nbc="51" Nb="1" Na="4110. Usagers (et organismes de prise en charge)" />
+	<Sub_category Nbc="51" Nb="2" Na="4116. Créances douteuses ou litigieuses" />
+	<Sub_category Nbc="51" Nb="3" Na="4118. Usagers. Produits non encore facturés" />
+	<Sub_category Nbc="51" Nb="4" Na="4119. Usagers créditeurs" />
+	<Category Nb="52" Na="42. Personnel et comptes rattachés" Kd="0" />
+	<Sub_category Nbc="52" Nb="1" Na="4210. Personnel. Rémunérations dues" />
+	<Sub_category Nbc="52" Nb="2" Na="4220. Comités d&apos;entreprise, d&apos;établissement..." />
+	<Sub_category Nbc="52" Nb="3" Na="4250. Personnel. Avances et acomptes" />
+	<Sub_category Nbc="52" Nb="4" Na="4270. Personnel. Opposition" />
+	<Sub_category Nbc="52" Nb="5" Na="4280. Personnel. Charges à payer et produits à recevoir" />
+	<Sub_category Nbc="52" Nb="6" Na="4282. Dettes provisionnées pour congés à payer" />
+	<Sub_category Nbc="52" Nb="7" Na="4286. Autres charges à payer" />
+	<Sub_category Nbc="52" Nb="8" Na="4287. Produits à recevoir" />
+	<Category Nb="53" Na="43 Sécurité sociale et autres organismes sociaux" Kd="0" />
+	<Sub_category Nbc="53" Nb="1" Na="4310. Sécurité sociale" />
+	<Sub_category Nbc="53" Nb="2" Na="4370. Autres organismes sociaux" />
+	<Sub_category Nbc="53" Nb="3" Na="4372. Mutuelles" />
+	<Sub_category Nbc="53" Nb="4" Na="4373. Caisses de retraite et de prévoyance" />
+	<Sub_category Nbc="53" Nb="5" Na="4374. Caisse d&apos;allocation chômage. ASSEDIC" />
+	<Sub_category Nbc="53" Nb="6" Na="4378. Autres organismes sociaux. Divers" />
+	<Sub_category Nbc="53" Nb="7" Na="4380. Organismes sociaux. Charges à payer et produits à recevoir" />
+	<Sub_category Nbc="53" Nb="8" Na="4382. Charges sociales sur congés à payer" />
+	<Sub_category Nbc="53" Nb="9" Na="4386. Autres charges à payer" />
+	<Sub_category Nbc="53" Nb="10" Na="4387. Produits à recevoir" />
+	<Category Nb="54" Na="44. État et autres collectivités publiques" Kd="0" />
+	<Sub_category Nbc="54" Nb="1" Na="4410. État. Subventions à recevoir" />
+	<Sub_category Nbc="54" Nb="2" Na="4411. Subventions d&apos;investissement" />
+	<Sub_category Nbc="54" Nb="3" Na="4417. Subventions d&apos;exploitation" />
+	<Sub_category Nbc="54" Nb="4" Na="4419. Avances sur subventions" />
+	<Sub_category Nbc="54" Nb="5" Na="4430. Opérations particulières avec l&apos;État, les collectivités publiques, les organismes internationaux" />
+	<Sub_category Nbc="54" Nb="6" Na="4440. État. Impôts sur les bénéfices" />
+	<Sub_category Nbc="54" Nb="7" Na="4445. État. Impôts sur les sociétés (organismes sans but lucratif)" />
+	<Sub_category Nbc="54" Nb="8" Na="4450. État. Taxes sur le chiffre d&apos;affaires" />
+	<Sub_category Nbc="54" Nb="9" Na="4452. TVA due intercommunautaire" />
+	<Sub_category Nbc="54" Nb="10" Na="4455. Taxes sur le chiffre d&apos;affaires à décaisser" />
+	<Sub_category Nbc="54" Nb="11" Na="4456. Taxes sur le chiffre d&apos;affaires déductibles" />
+	<Sub_category Nbc="54" Nb="12" Na="44562. TVA sur immobilisations" />
+	<Sub_category Nbc="54" Nb="13" Na="44566. TVA sur autres biens et services" />
+	<Sub_category Nbc="54" Nb="14" Na="44567. Crédit de TVA à reporter" />
+	<Sub_category Nbc="54" Nb="15" Na="4457. Taxes sur le chiffre d&apos;affaires collectées par l&apos;association" />
+	<Sub_category Nbc="54" Nb="16" Na="4458. Taxes sur le chiffre d&apos;affaires à régulariser ou en attente" />
+	<Sub_category Nbc="54" Nb="17" Na="44586. Taxes sur le chiffre d&apos;affaires sur factures non parvenues" />
+	<Sub_category Nbc="54" Nb="18" Na="44587. Taxes sur le chiffre d&apos;affaires sur factures à établir" />
+	<Sub_category Nbc="54" Nb="19" Na="4470. Autres impôts et taxes et versements assimilés" />
+	<Sub_category Nbc="54" Nb="20" Na="4471. Impôts, taxes et versements assimilés sur rémunérations (administration des impôts)" />
+	<Sub_category Nbc="54" Nb="21" Na="44711. Taxes sur les salaires" />
+	<Sub_category Nbc="54" Nb="22" Na="44713. Participation des employeurs à la formation professionnelle continue" />
+	<Sub_category Nbc="54" Nb="23" Na="44714. Cotisation pour défaut d&apos;investissement dans la construction" />
+	<Sub_category Nbc="54" Nb="24" Na="44718. Autres impôts, taxes et versements assimilés" />
+	<Sub_category Nbc="54" Nb="25" Na="4473. Impôts, taxes et versements assimilés sur rémunérations (autres organismes)" />
+	<Sub_category Nbc="54" Nb="26" Na="44733. Participation des employeurs à la formation professionnelle continue" />
+	<Sub_category Nbc="54" Nb="27" Na="44734. Participation des employeurs à l&apos;effort de construction (versement à fonds perdus)" />
+	<Sub_category Nbc="54" Nb="28" Na="4475. Autres impôts, taxes et versements assimilés (administration des impôts)" />
+	<Sub_category Nbc="54" Nb="29" Na="4477. Autres impôts, taxes et versements assimilés (autres organismes)" />
+	<Sub_category Nbc="54" Nb="30" Na="4480. État. Charges à payer et produits à recevoir" />
+	<Sub_category Nbc="54" Nb="31" Na="4482. Charges fiscales sur congés à payer" />
+	<Sub_category Nbc="54" Nb="32" Na="4486. Autres charges à payer" />
+	<Sub_category Nbc="54" Nb="33" Na="4487. Produits à recevoir" />
+	<Category Nb="55" Na="45. Confédération, fédération, union, association affiliées" Kd="0" />
+	<Sub_category Nbc="55" Nb="1" Na="4510. Confédération, fédération, associations affiliées. Compte courant" />
+	<Sub_category Nbc="55" Nb="2" Na="4550. Sociétaires. Comptes courants" />
+	<Category Nb="56" Na="46. Débiteurs divers et créditeurs divers" Kd="0" />
+	<Sub_category Nbc="56" Nb="1" Na="4670. Autres comptes débiteurs ou créditeurs" />
+	<Sub_category Nbc="56" Nb="2" Na="4680. Divers. Charges à payer et produits à recevoir" />
+	<Sub_category Nbc="56" Nb="3" Na="4686. Charges à payer" />
+	<Sub_category Nbc="56" Nb="4" Na="4687. Produits à recevoir" />
+	<Category Nb="57" Na="47. Comptes d&apos;attente" Kd="0" />
+	<Sub_category Nbc="57" Nb="1" Na="4710. Recettes à classer" />
+	<Sub_category Nbc="57" Nb="2" Na="4720. Dépenses à classer et régulariser" />
+	<Sub_category Nbc="57" Nb="3" Na="4750. Legs et donations en cours de réalisation" />
+	<Category Nb="58" Na="48. Comptes de régularisation" Kd="0" />
+	<Sub_category Nbc="58" Nb="1" Na="4810. Charges à répartir sur plusieurs exercices" />
+	<Sub_category Nbc="58" Nb="2" Na="4812. Frais d&apos;acquisition des immobilisations" />
+	<Sub_category Nbc="58" Nb="3" Na="4818. Charges à étaler" />
+	<Sub_category Nbc="58" Nb="4" Na="4860. Charges constatées d&apos;avance" />
+	<Sub_category Nbc="58" Nb="5" Na="4870. Produits constatés d&apos;avance" />
+	<Category Nb="59" Na="49. Provisions pour dépréciation des comptes de tiers" Kd="0" />
+	<Sub_category Nbc="59" Nb="1" Na="4910. Provisions pour dépréciation des comptes d&apos;usagers (et organisme de prise en charge)" />
+	<Sub_category Nbc="59" Nb="2" Na="4960. Provisions pour dépréciation des comptes de débiteurs divers" />
+	<Category Nb="60" Na="50. Valeurs mobilières de placement" Kd="1" />
+	<Sub_category Nbc="60" Nb="1" Na="5030. Actions" />
+	<Sub_category Nbc="60" Nb="2" Na="5031. Titres cotés" />
+	<Sub_category Nbc="60" Nb="3" Na="5035. Titres non cotés" />
+	<Sub_category Nbc="60" Nb="4" Na="5060. Obligations" />
+	<Sub_category Nbc="60" Nb="5" Na="5061. Titres cotés" />
+	<Sub_category Nbc="60" Nb="6" Na="5065. Titres non cotés" />
+	<Sub_category Nbc="60" Nb="7" Na="5070. Bons du Trésor et bons de caisse à court terme" />
+	<Sub_category Nbc="60" Nb="8" Na="5080. Autres valeurs mobilières et créances assimilées" />
+	<Sub_category Nbc="60" Nb="9" Na="5088. Intérêts courus sur obligations, bons et valeurs assimilées" />
+	<Category Nb="61" Na="51. Banques, établissements financiers et assimilés" Kd="1" />
+	<Sub_category Nbc="61" Nb="1" Na="5110. Valeurs à l&apos;encaissement" />
+	<Sub_category Nbc="61" Nb="2" Na="5120. Banques" />
+	<Sub_category Nbc="61" Nb="3" Na="5130. Caisse des Dépôts et Consignations" />
+	<Sub_category Nbc="61" Nb="4" Na="5140. Chèques postaux" />
+	<Sub_category Nbc="61" Nb="5" Na="5150. Caisses du Trésor et des établissements publics" />
+	<Sub_category Nbc="61" Nb="6" Na="5170. Autres organismes financiers" />
+	<Sub_category Nbc="61" Nb="7" Na="5171. Caisse d&apos;Épargne" />
+	<Sub_category Nbc="61" Nb="8" Na="5180. Intérêts courus" />
+	<Sub_category Nbc="61" Nb="9" Na="5186. Intérêts courus à payer" />
+	<Sub_category Nbc="61" Nb="10" Na="5187. Intérêts courus à recevoir" />
+	<Sub_category Nbc="61" Nb="11" Na="5190. Concours bancaires courants" />
+	<Sub_category Nbc="61" Nb="12" Na="5198. Intérêts courus sur concours bancaires courants" />
+	<Category Nb="62" Na="53. Caisse" Kd="1" />
+	<Sub_category Nbc="62" Nb="1" Na="5310. Caisse du siège" />
+	<Sub_category Nbc="62" Nb="2" Na="5320. Caisses des lieux d&apos;activité" />
+	<Category Nb="63" Na="54 Régies d&apos;avance et accréditifs" Kd="1" />
+	<Sub_category Nbc="63" Nb="1" Na="5410. Régies d&apos;avance" />
+	<Sub_category Nbc="63" Nb="2" Na="5420. Accréditifs" />
+	<Category Nb="64" Na="58.Virements internes" Kd="1" />
+	<Sub_category Nbc="64" Nb="1" Na="5810. Virements de fonds" />
+	<Category Nb="65" Na="59. Provisions pour dépréciation des comptes financiers" Kd="1" />
+	<Sub_category Nbc="65" Nb="1" Na="5900. Provisions pour dépréciation des valeurs mobilières de placement" />
+	<Category Nb="66" Na="60. Achats (sauf 603)" Kd="1" />
+	<Sub_category Nbc="66" Nb="1" Na="6010. Achats stockés. Matières premières et fournitures" />
+	<Sub_category Nbc="66" Nb="2" Na="6020. Achats stockés. Autres approvisionnements" />
+	<Sub_category Nbc="66" Nb="3" Na="6021. Matières consommables" />
+	<Sub_category Nbc="66" Nb="4" Na="6022. Fournitures consommables" />
+	<Sub_category Nbc="66" Nb="5" Na="60221. Combustibles" />
+	<Sub_category Nbc="66" Nb="6" Na="60222. Produits d&apos;entretien" />
+	<Sub_category Nbc="66" Nb="7" Na="60223. Fournitures d&apos;atelier" />
+	<Sub_category Nbc="66" Nb="8" Na="60224. Fournitures de magasin" />
+	<Sub_category Nbc="66" Nb="9" Na="60225. Fournitures de bureau" />
+	<Sub_category Nbc="66" Nb="10" Na="6030. Variations de stocks (approvisionnements et marchandises)" />
+	<Sub_category Nbc="66" Nb="11" Na="6031. Variations de stocks de matières premières et fournitures" />
+	<Sub_category Nbc="66" Nb="12" Na="6032. Variations de stocks des autres approvisionnements" />
+	<Sub_category Nbc="66" Nb="13" Na="6037. Variations des stocks de marchandises" />
+	<Sub_category Nbc="66" Nb="14" Na="6040. Achats d&apos;études et de prestations de service" />
+	<Sub_category Nbc="66" Nb="15" Na="6060. Achats non stockés de matières et fournitures" />
+	<Sub_category Nbc="66" Nb="16" Na="6061. Fournitures non stockables (eau, électricité...)" />
+	<Sub_category Nbc="66" Nb="17" Na="6063. Fournitures d&apos;entretien et de petit équipement" />
+	<Sub_category Nbc="66" Nb="18" Na="6064. Fournitures administratives" />
+	<Sub_category Nbc="66" Nb="19" Na="6068. Autres matières et fournitures" />
+	<Sub_category Nbc="66" Nb="20" Na="6070. Achats de marchandises" />
+	<Sub_category Nbc="66" Nb="21" Na="6071. Marchandise A" />
+	<Sub_category Nbc="66" Nb="22" Na="6072. Marchandise B" />
+	<Sub_category Nbc="66" Nb="23" Na="6090. Rabais, remises et ristournes obtenus sur achats" />
+	<Category Nb="67" Na="61. Services extérieurs" Kd="1" />
+	<Sub_category Nbc="67" Nb="1" Na="6110. Sous-traitance générale" />
+	<Sub_category Nbc="67" Nb="2" Na="6120. Redevances de crédit-bail" />
+	<Sub_category Nbc="67" Nb="3" Na="6122. Crédit-bail mobilier" />
+	<Sub_category Nbc="67" Nb="4" Na="6125. Crédit-bail immobilier" />
+	<Sub_category Nbc="67" Nb="5" Na="6130. Locations" />
+	<Sub_category Nbc="67" Nb="6" Na="6132. Locations immobilières" />
+	<Sub_category Nbc="67" Nb="7" Na="6135. Locations mobilières" />
+	<Sub_category Nbc="67" Nb="8" Na="6140. Charges locatives et de copropriété" />
+	<Sub_category Nbc="67" Nb="9" Na="6150. Entretien et réparations" />
+	<Sub_category Nbc="67" Nb="10" Na="6152. ...sur biens immobiliers" />
+	<Sub_category Nbc="67" Nb="11" Na="6155. ...sur biens mobiliers" />
+	<Sub_category Nbc="67" Nb="12" Na="6156. Maintenance" />
+	<Sub_category Nbc="67" Nb="13" Na="6160. Primes d&apos;assurance" />
+	<Sub_category Nbc="67" Nb="14" Na="6161. Multirisque" />
+	<Sub_category Nbc="67" Nb="15" Na="6162. Assurance obligatoire dommage-construction" />
+	<Sub_category Nbc="67" Nb="16" Na="6168. Autres assurances" />
+	<Sub_category Nbc="67" Nb="17" Na="6170. Études et recherches" />
+	<Sub_category Nbc="67" Nb="18" Na="6180. Divers" />
+	<Sub_category Nbc="67" Nb="19" Na="6181. Documentation générale" />
+	<Sub_category Nbc="67" Nb="20" Na="6183. Documentation technique" />
+	<Sub_category Nbc="67" Nb="21" Na="6185. Frais de colloques, séminaires, conférences" />
+	<Sub_category Nbc="67" Nb="22" Na="6190. Rabais, remises, ristournes obtenus sur services extérieurs" />
+	<Category Nb="68" Na="62. Autres services extérieurs" Kd="1" />
+	<Sub_category Nbc="68" Nb="1" Na="6210. Personnel extérieur à l&apos;association" />
+	<Sub_category Nbc="68" Nb="2" Na="6211. Personnel intérimaire" />
+	<Sub_category Nbc="68" Nb="3" Na="6214. Personnel détaché ou prêté à l&apos;association" />
+	<Sub_category Nbc="68" Nb="4" Na="6220. Rémunérations d&apos;intérimaires et honoraires" />
+	<Sub_category Nbc="68" Nb="5" Na="6226. Honoraires" />
+	<Sub_category Nbc="68" Nb="6" Na="6227. Frais d&apos;actes et de contentieux" />
+	<Sub_category Nbc="68" Nb="7" Na="6230. Publicité, publications, relations publiques" />
+	<Sub_category Nbc="68" Nb="8" Na="6231. Annonces et insertions" />
+	<Sub_category Nbc="68" Nb="9" Na="6233. Foires et expositions" />
+	<Sub_category Nbc="68" Nb="10" Na="6236. Catalogues et imprimés" />
+	<Sub_category Nbc="68" Nb="11" Na="6237. Publications" />
+	<Sub_category Nbc="68" Nb="12" Na="6238. Divers (pourboires, dons courants...)" />
+	<Sub_category Nbc="68" Nb="13" Na="6240. Transports de biens et transports collectifs de personnels" />
+	<Sub_category Nbc="68" Nb="14" Na="6241. Transports sur achats" />
+	<Sub_category Nbc="68" Nb="15" Na="6242. Transports sur ventes" />
+	<Sub_category Nbc="68" Nb="16" Na="6243. Transports entre établissements" />
+	<Sub_category Nbc="68" Nb="17" Na="6248. Divers" />
+	<Sub_category Nbc="68" Nb="18" Na="6250. Déplacements, missions et réceptions" />
+	<Sub_category Nbc="68" Nb="19" Na="6251. Voyages et déplacements" />
+	<Sub_category Nbc="68" Nb="20" Na="6256. Missions" />
+	<Sub_category Nbc="68" Nb="21" Na="6257. Réceptions" />
+	<Sub_category Nbc="68" Nb="22" Na="6260. Frais postaux et frais de télécommunications" />
+	<Sub_category Nbc="68" Nb="23" Na="6261. Liaisons informatiques ou spécialisées" />
+	<Sub_category Nbc="68" Nb="24" Na="6263. Affranchissements" />
+	<Sub_category Nbc="68" Nb="25" Na="6265. Téléphone" />
+	<Sub_category Nbc="68" Nb="26" Na="6270. Services bancaires et assimilés" />
+	<Sub_category Nbc="68" Nb="27" Na="6280. Divers" />
+	<Sub_category Nbc="68" Nb="28" Na="6281. Cotisations (liées à l&apos;activité économique)" />
+	<Sub_category Nbc="68" Nb="29" Na="6284. Frais de recrutement du personnel" />
+	<Sub_category Nbc="68" Nb="30" Na="6290. Rabais, remises, ristournes obtenus sur autres services extérieurs" />
+	<Category Nb="69" Na="63. Impôts, taxes et versements assimilés" Kd="1" />
+	<Sub_category Nbc="69" Nb="1" Na="6310. Impôts, taxes et versements assimilés sur rémunérations (administration des impôts)" />
+	<Sub_category Nbc="69" Nb="2" Na="6311. Taxe sur les salaires" />
+	<Sub_category Nbc="69" Nb="3" Na="6312. Taxe d&apos;apprentissage" />
+	<Sub_category Nbc="69" Nb="4" Na="6313. Participation des employeurs à la formation professionnelle continue" />
+	<Sub_category Nbc="69" Nb="5" Na="6314. Cotisation pour défaut d&apos;investissement obligatoire dans la construction" />
+	<Sub_category Nbc="69" Nb="6" Na="6330. Impôts, taxes et versements assimilés sur rémunérations (autres organismes)" />
+	<Sub_category Nbc="69" Nb="7" Na="6331. Versements de transports" />
+	<Sub_category Nbc="69" Nb="8" Na="6333. Participation des employeurs à la formation professionnelle continue" />
+	<Sub_category Nbc="69" Nb="9" Na="6334. Participation des employeurs à l&apos;effort de construction (versement à fonds perdus)" />
+	<Sub_category Nbc="69" Nb="10" Na="6335. Versements libératoires donnant droit à l&apos;exonération de la taxe d&apos;apprentissage" />
+	<Sub_category Nbc="69" Nb="11" Na="6350. Autres impôts, taxes et versements assimilés (administration des impôts)" />
+	<Sub_category Nbc="69" Nb="12" Na="6351. Impôts directs (sauf impôt sur les bénéfices)" />
+	<Sub_category Nbc="69" Nb="13" Na="63512. Taxes foncières" />
+	<Sub_category Nbc="69" Nb="14" Na="62413. Autres impôts locaux" />
+	<Sub_category Nbc="69" Nb="15" Na="63518. Autres impôts directs" />
+	<Sub_category Nbc="69" Nb="16" Na="6352. Taxes sur le chiffre d&apos;affaires non récupérable" />
+	<Sub_category Nbc="69" Nb="17" Na="6353. Impôts indirects" />
+	<Sub_category Nbc="69" Nb="18" Na="6354. Droits d&apos;enregistrement et de timbre" />
+	<Sub_category Nbc="69" Nb="19" Na="6358. Autres droits" />
+	<Sub_category Nbc="69" Nb="20" Na="6370. Autres impôts, taxes et versements assimilés (autres organismes)" />
+	<Category Nb="70" Na="64. Charges de personnel" Kd="1" />
+	<Sub_category Nbc="70" Nb="1" Na="6410. Rémunérations du personnel" />
+	<Sub_category Nbc="70" Nb="2" Na="6411. Salaires et appointements" />
+	<Sub_category Nbc="70" Nb="3" Na="6412. Congés payés" />
+	<Sub_category Nbc="70" Nb="4" Na="6413. Primes et gratifications" />
+	<Sub_category Nbc="70" Nb="5" Na="6414. Indemnités et avantages divers" />
+	<Sub_category Nbc="70" Nb="6" Na="6415. Supplément familial" />
+	<Sub_category Nbc="70" Nb="7" Na="6450. Charges de sécurité sociale et de prévoyance" />
+	<Sub_category Nbc="70" Nb="8" Na="6451. Cotisations à l&apos;URSSAF" />
+	<Sub_category Nbc="70" Nb="9" Na="6452. Cotisations aux mutuelles" />
+	<Sub_category Nbc="70" Nb="10" Na="6453. Cotisations aux caisses de retraite et de prévoyance" />
+	<Sub_category Nbc="70" Nb="11" Na="6454. Cotisations aux ASSEDIC" />
+	<Sub_category Nbc="70" Nb="12" Na="6458. Cotisations aux autres organismes sociaux" />
+	<Sub_category Nbc="70" Nb="13" Na="6470. Autres charges sociales" />
+	<Sub_category Nbc="70" Nb="14" Na="6472. Versements aux comités d&apos;entreprise et d&apos;établissement" />
+	<Sub_category Nbc="70" Nb="15" Na="6475. Médecine du travail, pharmacie" />
+	<Sub_category Nbc="70" Nb="16" Na="6480. Autres charges de personnel" />
+	<Category Nb="71" Na="65. Autres charges de gestion courante" Kd="1" />
+	<Sub_category Nbc="71" Nb="1" Na="6510. Redevances pour concessions, brevets, licences, marques, procédés" />
+	<Sub_category Nbc="71" Nb="2" Na="6516. Droits d&apos;auteur et de reproduction (SACEM)" />
+	<Sub_category Nbc="71" Nb="3" Na="6518. Autres droits et valeurs similaires" />
+	<Sub_category Nbc="71" Nb="4" Na="6540. Pertes sur créances irrécouvrables" />
+	<Sub_category Nbc="71" Nb="5" Na="6541. Créances de l&apos;exercice" />
+	<Sub_category Nbc="71" Nb="6" Na="6544. Créances des exercices antérieurs" />
+	<Sub_category Nbc="71" Nb="7" Na="6550. Quotes-parts de résultats sur opérations faites en commun" />
+	<Sub_category Nbc="71" Nb="8" Na="6570. Subventions versées par l&apos;association" />
+	<Sub_category Nbc="71" Nb="9" Na="6571. Bourses accordées aux usagers" />
+	<Sub_category Nbc="71" Nb="10" Na="6580. Charges diverses de gestion courante" />
+	<Sub_category Nbc="71" Nb="12" Na="6680. Autres charges financières" />
+	<Sub_category Nbc="71" Nb="13" Na="6586. Cotisations (liées à la vie statutaire)" />
+	<Category Nb="72" Na="66. Charges financières" Kd="1" />
+	<Sub_category Nbc="72" Nb="1" Na="6610. Charges d&apos;intérêts" />
+	<Sub_category Nbc="72" Nb="2" Na="6611. Intérêts des emprunts et dettes" />
+	<Sub_category Nbc="72" Nb="3" Na="6616. Intérêts bancaires" />
+	<Sub_category Nbc="72" Nb="4" Na="6618. Intérêts des autres dettes" />
+	<Sub_category Nbc="72" Nb="5" Na="6660. Pertes de change" />
+	<Sub_category Nbc="72" Nb="6" Na="6670. Charges nettes sur cessions de valeurs mobilières de placement" />
+	<Sub_category Nbc="72" Nb="8" Na="6680. Autres charges financières" />
+	<Category Nb="73" Na="67. Charges exceptionnelles" Kd="1" />
+	<Sub_category Nbc="73" Nb="1" Na="6710. Charges exceptionnelles sur opérations de gestion" />
+	<Sub_category Nbc="73" Nb="2" Na="6712. Pénalités et amendes fiscales ou pénales" />
+	<Sub_category Nbc="73" Nb="3" Na="6713. Dons, libéralités" />
+	<Sub_category Nbc="73" Nb="4" Na="6714. Créances devenues irrécouvrables dans l&apos;exercice" />
+	<Sub_category Nbc="73" Nb="5" Na="6717. Rappels d&apos;impôts (autres qu&apos;impôts sur les bénéfices)" />
+	<Sub_category Nbc="73" Nb="6" Na="6718. Autres charges exceptionnelles sur opérations de gestion" />
+	<Sub_category Nbc="73" Nb="7" Na="6720. Charges sur exercices antérieurs (à reclasser)" />
+	<Sub_category Nbc="73" Nb="8" Na="6750. Valeurs comptables des éléments d&apos;actif cédés" />
+	<Sub_category Nbc="73" Nb="9" Na="6751. Immobilisations incorporelles" />
+	<Sub_category Nbc="73" Nb="10" Na="6752. Immobilisations corporelles" />
+	<Sub_category Nbc="73" Nb="11" Na="6756. Immobilisations financières" />
+	<Sub_category Nbc="73" Nb="12" Na="6780. Autres charges exceptionnelles" />
+	<Category Nb="74" Na="68. Dotations aux amortissements, provisions et engagements" Kd="1" />
+	<Sub_category Nbc="74" Nb="1" Na="6810. Dotations aux amortissements et aux provisions. Charges d&apos;exploitation" />
+	<Sub_category Nbc="74" Nb="2" Na="6811. Dotations aux amortissements des immobilisations incorporelles et corporelles" />
+	<Sub_category Nbc="74" Nb="3" Na="68111. Immobilisations incorporelles" />
+	<Sub_category Nbc="74" Nb="4" Na="68112. Immobilisations corporelles" />
+	<Sub_category Nbc="74" Nb="5" Na="6812. Dotations aux amortissements des charges d&apos;exploitation à répartir" />
+	<Sub_category Nbc="74" Nb="6" Na="6815. Dotations aux provisions pour risques et charges d&apos;exploitation" />
+	<Sub_category Nbc="74" Nb="7" Na="6816. Dotations aux provisions pour dépréciation des immobilisations incorporelles et corporelles" />
+	<Sub_category Nbc="74" Nb="8" Na="68161. Immobilisations incorporelles" />
+	<Sub_category Nbc="74" Nb="9" Na="68162. Immobilisations corporelles" />
+	<Sub_category Nbc="74" Nb="10" Na="6817. Dotations aux provisions pour dépréciation des actifs circulants" />
+	<Sub_category Nbc="74" Nb="11" Na="6860. Dotations aux amortissements et aux provisions. Charges financières" />
+	<Sub_category Nbc="74" Nb="12" Na="6866. Dotations aux provisions pour dépréciation des éléments financiers" />
+	<Sub_category Nbc="74" Nb="13" Na="68662. Immobilisations financières" />
+	<Sub_category Nbc="74" Nb="14" Na="68665. Valeurs mobilières de placement" />
+	<Sub_category Nbc="74" Nb="15" Na="6870. Dotations aux amortissements et aux provisions. Charges exceptionnelles" />
+	<Sub_category Nbc="74" Nb="16" Na="6871. Dotations aux amortissements exceptionnels des immobilisations" />
+	<Sub_category Nbc="74" Nb="17" Na="6876. Dotations aux amortissements pour dépréciations exceptionnelles" />
+	<Sub_category Nbc="74" Nb="18" Na="6890. Engagements à réaliser sur ressources affectées" />
+	<Sub_category Nbc="74" Nb="19" Na="6894. Engagements à réaliser sur subventions attribuées" />
+	<Sub_category Nbc="74" Nb="20" Na="6895. Engagements à réaliser sur dons manuels affectés" />
+	<Sub_category Nbc="74" Nb="21" Na="6897. Engagements à réaliser sur legs et donations affectés" />
+	<Category Nb="75" Na="69. Impôts sur les bénéfices" Kd="1" />
+	<Sub_category Nbc="75" Nb="1" Na="6950. Impôts sur les bénéfices" />
+	<Sub_category Nbc="75" Nb="2" Na="6910. Participation des salariés aux résultats" />
+	<Sub_category Nbc="75" Nb="3" Na="69511. Impôts sur les sociétés des personnes morales non lucratives" />
+	<Sub_category Nbc="75" Nb="4" Na="69512. Impôts sur les sociétés de droit commun" />
+	<Sub_category Nbc="75" Nb="5" Na="6952. Contributions additionnelles à l&apos;impôt sur les bénéfices" />
+	<Sub_category Nbc="75" Nb="6" Na="6970. Imposition forfaitaire annuelle (IFA)" />
+	<Category Nb="76" Na="70. Ventes de produits finis, prestations de services, marchandises" Kd="0" />
+	<Sub_category Nbc="76" Nb="1" Na="7010. Ventes de produits finis" />
+	<Sub_category Nbc="76" Nb="2" Na="7050. Études" />
+	<Sub_category Nbc="76" Nb="3" Na="7060. Prestations de service" />
+	<Sub_category Nbc="76" Nb="4" Na="7070. Ventes de marchandises" />
+	<Sub_category Nbc="76" Nb="5" Na="7080. Produits des activités annexes" />
+	<Sub_category Nbc="76" Nb="6" Na="7081. Produits des prestations fournies au personnel" />
+	<Sub_category Nbc="76" Nb="7" Na="7083. Locations diverses" />
+	<Sub_category Nbc="76" Nb="8" Na="7084. Mise à disposition de personnel facturée" />
+	<Sub_category Nbc="76" Nb="9" Na="7088. Autres produits d&apos;activités annexes" />
+	<Sub_category Nbc="76" Nb="10" Na="7090. Rabais, remises et ristournes accordés par l&apos;association" />
+	<Category Nb="77" Na="71. Production stockée (ou dé-stockage)" Kd="0" />
+	<Sub_category Nbc="77" Nb="1" Na="7130. Variation de stock (en-cours de production, produits)" />
+	<Sub_category Nbc="77" Nb="2" Na="7133. Variation des en-cours de production de biens" />
+	<Sub_category Nbc="77" Nb="3" Na="7134. Variation des en-cours de production de services" />
+	<Sub_category Nbc="77" Nb="4" Na="7135. Variation des stocks de produits" />
+	<Category Nb="78" Na="72. Production immobilisée" Kd="0" />
+	<Category Nb="79" Na="74. Subventions d&apos;exploitation" Kd="0" />
+	<Category Nb="80" Na="75. Autres produits de gestion courante" Kd="0" />
+	<Sub_category Nbc="80" Nb="1" Na="7510. Redevances pour concessions, brevets, licences, marques, procédés, droits et valeurs similaires" />
+	<Sub_category Nbc="80" Nb="2" Na="7520. Revenus des immeubles non affectés aux activités de l&apos;association" />
+	<Sub_category Nbc="80" Nb="3" Na="7540. Collectes" />
+	<Sub_category Nbc="80" Nb="4" Na="7560. Cotisations" />
+	<Sub_category Nbc="80" Nb="5" Na="7570. Quote-part d&apos;éléments du fonds associatif virée au compte de résultat" />
+	<Sub_category Nbc="80" Nb="6" Na="7571. Quote-part de subventions d&apos;investissement (renouvelables) virée au compte de résultat" />
+	<Sub_category Nbc="80" Nb="7" Na="7573. Quote-part des apports virée au compte de résultat" />
+	<Sub_category Nbc="80" Nb="8" Na="7580. Produits divers de gestion courante" />
+	<Sub_category Nbc="80" Nb="9" Na="7581. Dons manuels non affectés" />
+	<Sub_category Nbc="80" Nb="10" Na="7582. Dons manuels affectés" />
+	<Sub_category Nbc="80" Nb="11" Na="7585. Legs et donations non affectés" />
+	<Sub_category Nbc="80" Nb="12" Na="7586. Legs et donations affectés" />
+	<Sub_category Nbc="80" Nb="13" Na="7587. Ventes de dons en nature" />
+	<Sub_category Nbc="80" Nb="14" Na="7588. Autres produits de la générosité publique" />
+	<Sub_category Nbc="80" Nb="15" Na="7561. Cotisations personnes morales" />
+	<Category Nb="81" Na="76. Produits financiers" Kd="0" />
+	<Sub_category Nbc="81" Nb="1" Na="7610. Produits des participations" />
+	<Sub_category Nbc="81" Nb="2" Na="7620. Produits des autres immobilisations financières" />
+	<Sub_category Nbc="81" Nb="3" Na="7621. Revenus des titres immobilisés" />
+	<Sub_category Nbc="81" Nb="4" Na="7624. Revenus des prêts" />
+	<Sub_category Nbc="81" Nb="5" Na="7640. Revenus des valeurs mobilières de placement" />
+	<Sub_category Nbc="81" Nb="6" Na="7650. Escomptes obtenus" />
+	<Sub_category Nbc="81" Nb="7" Na="7660. Gains de change" />
+	<Sub_category Nbc="81" Nb="8" Na="7670. Produits nets sur cession de valeurs mobilières de placement" />
+	<Sub_category Nbc="81" Nb="9" Na="7680. Autres produits financiers" />
+	<Sub_category Nbc="81" Nb="10" Na="7681. Intérêts des comptes financiers débiteurs" />
+	<Category Nb="82" Na="77. Produits exceptionnels" Kd="0" />
+	<Sub_category Nbc="82" Nb="1" Na="7710. Produits exceptionnels sur opérations de gestion" />
+	<Sub_category Nbc="82" Nb="2" Na="7713. Libéralités perçues" />
+	<Sub_category Nbc="82" Nb="3" Na="7714. Rentrées sur créances amorties" />
+	<Sub_category Nbc="82" Nb="4" Na="7715. Subventions d&apos;équilibre" />
+	<Sub_category Nbc="82" Nb="5" Na="7717. Dégrèvements d&apos;impôts (autres qu&apos;impôts sur les bénéfices)" />
+	<Sub_category Nbc="82" Nb="6" Na="7718. Autres produits exceptionnels sur opérations de gestion" />
+	<Sub_category Nbc="82" Nb="7" Na="7720. Produits sur exercices antérieurs (à reclasser)" />
+	<Sub_category Nbc="82" Nb="8" Na="7750. Produits des cessions d&apos;éléments d&apos;actif" />
+	<Sub_category Nbc="82" Nb="9" Na="7751. Immobilisations incorporelles" />
+	<Sub_category Nbc="82" Nb="10" Na="7752. Immobilisations corporelles" />
+	<Sub_category Nbc="82" Nb="11" Na="7756. Immobilisations financières" />
+	<Sub_category Nbc="82" Nb="12" Na="7770. Quote-part des subventions d&apos;investissement virée au résultat de l&apos;exercice" />
+	<Sub_category Nbc="82" Nb="13" Na="7780. Autres produits exceptionnels" />
+	<Category Nb="83" Na="78. Reprises sur amortissements et provisions" Kd="0" />
+	<Sub_category Nbc="83" Nb="1" Na="7810. Reprise sur amortissements et provisions (à inscrire dans les produits d&apos;exploitation)" />
+	<Sub_category Nbc="83" Nb="2" Na="7811. Reprise sur amortissements et provisions des immobilisations incorporelles et corporelles" />
+	<Sub_category Nbc="83" Nb="3" Na="7815. Reprise sur provisions pour risques et charges d&apos;exploitation" />
+	<Sub_category Nbc="83" Nb="4" Na="7816. Reprise sur provisions pour dépréciation des immobilisations incorporelles et corporelles" />
+	<Sub_category Nbc="83" Nb="5" Na="78161. Immobilisations incorporelles" />
+	<Sub_category Nbc="83" Nb="6" Na="78162. Immobilisation corporelles" />
+	<Sub_category Nbc="83" Nb="7" Na="7817. Reprise sur provisions pour dépréciation des actifs circulants" />
+	<Sub_category Nbc="83" Nb="8" Na="7860. Reprise sur provisions (à inscrire dans les produits exceptionnels)" />
+	<Sub_category Nbc="83" Nb="9" Na="7866. Reprise sur provisions pour dépréciation des éléments financiers" />
+	<Sub_category Nbc="83" Nb="10" Na="78662. Immobilisations financières" />
+	<Sub_category Nbc="83" Nb="11" Na="78665. Valeurs mobilières de placement" />
+	<Sub_category Nbc="83" Nb="12" Na="7870. Reprise sur provisions (à inscrire dans les produits exceptionnels)" />
+	<Sub_category Nbc="83" Nb="13" Na="7876. Reprise sur provisions pour dépréciations exceptionnelles" />
+	<Sub_category Nbc="83" Nb="14" Na="7890. Report des ressources non utilisées des exercices antérieurs" />
+	<Sub_category Nbc="83" Nb="15" Na="7894. Report des ressources non utilisées sur subventions attribuées" />
+	<Sub_category Nbc="83" Nb="16" Na="7895. Report des ressources non utilisées sur dons manuels reçus" />
+	<Sub_category Nbc="83" Nb="17" Na="7897. Report des ressources non utilisées sur legs et donations affectés" />
+	<Category Nb="84" Na="79. Transferts de charges" Kd="0" />
+	<Sub_category Nbc="84" Nb="1" Na="7910. Transferts de charges d&apos;exploitation" />
+	<Sub_category Nbc="84" Nb="2" Na="7960. Transferts de charges financières" />
+	<Sub_category Nbc="84" Nb="3" Na="7970. Transferts de charges exceptionnelles" />
+	<Category Nb="85" Na="86. Répartition par nature de charges" Kd="0" />
+	<Sub_category Nbc="85" Nb="1" Na="8600. Secours en nature" />
+	<Sub_category Nbc="85" Nb="2" Na="8601. Alimentaires" />
+	<Sub_category Nbc="85" Nb="3" Na="8602. Vestimentaires" />
+	<Sub_category Nbc="85" Nb="4" Na="8610. Mise à disposition gratuite de biens" />
+	<Sub_category Nbc="85" Nb="5" Na="8611. Locaux" />
+	<Sub_category Nbc="85" Nb="6" Na="8612. Matériels" />
+	<Sub_category Nbc="85" Nb="7" Na="8620. Prestations" />
+	<Sub_category Nbc="85" Nb="8" Na="8640. Personnel bénévole" />
+	<Category Nb="86" Na="87. Répartition par nature des ressources" Kd="0" />
+	<Sub_category Nbc="86" Nb="1" Na="8700. Bénévolat" />
+	<Sub_category Nbc="86" Nb="2" Na="8710. Prestation en nature" />
+	<Sub_category Nbc="86" Nb="3" Na="8750. Dons en nature" />
+	<Budgetary Nb="5" Na="91. Gestion Générale" Kd="1" />
+	<Budgetary Nb="6" Na="96. Manifestation" Kd="1" />
+	<Sub_budgetary Nbb="6" Nb="1" Na="962 Activité 2" />
+	<Sub_budgetary Nbb="6" Nb="2" Na="961 Activité 1" />
+	<Bank Nb="1" Na="BANQUE POSTALE" Co="(null)" BIC="(null)" Adr="(null)" Tel="(null)" Mail="(null)" Web="(null)" Nac="(null)" Faxc="(null)" Telc="(null)" Mailc="(null)" Rem="(null)" />
+	<Financial_year Nb="1" Na="2012" Bdte="01/01/2012" Edte="12/31/2012" Sho="1" />
+	<Financial_year Nb="2" Na="2013" Bdte="01/01/2013" Edte="12/31/2013" Sho="1" />
+	<Bet Ddte="1" Bet_deb_cash_account_option="1"/>
+	<Report
+		Nb="1"
+		Name="BILAN au 31/12/2012"
+		General_sort_type="5/-/1/-/2/-/3/-/4/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="0"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="3"
+		Financial_year_select="1"
+		Date_kind="1"
+		Date_beginning="01/01/2012"
+		Date_end="12/31/2012"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="1"
+		Account_selected="8/-/4/-/5/-/9/-/10/-/6/-/3/-/1/-/2/-/11"
+		Account_group_transactions="1"
+		Account_show_amount="1"
+		Account_show_name="1"
+		Transfer_kind="3"
+		Transfer_selected_accounts="4/-/5/-/9/-/10/-/6/-/3/-/1/-/2/-/8/-/11"
+		Transfer_exclude_transactions="0"
+		Categ_use="0"
+		Categ_use_selection="0"
+		Categ_selected="(null)"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="1/-/18/-/25/-/19/-/17/-/13/-/14/-/21/-/22/-/6/-/3/-/26/-/8/-/10/-/11/-/12/-/20/-/4/-/23/-/7/-/2/-/5/-/24/-/9/-/16/-/15"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="1"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="1"
+		Report_nb="1"
+		Last_comparison="-1"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="8"
+		Report_nb="1"
+		Last_comparison="-1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+	<Report
+		Nb="2"
+		Name="Budget annuel 2012"
+		General_sort_type="3/-/4/-/1/-/2/-/5/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="1"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="0"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="3"
+		Financial_year_select="1"
+		Date_kind="1"
+		Date_beginning="01/01/2012"
+		Date_end="12/31/2012"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="0"
+		Account_selected="3/-/1/-/2/-/4/-/5/-/9/-/10/-/6/-/8/-/11"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="1"
+		Transfer_kind="2"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="0"
+		Categ_use_selection="1"
+		Categ_selected="60/1/2/3/4/5/6/7/8/9/0-61/1/2/3/4/5/6/7/8/9/10/11/12/0-62/1/2/0-63/1/2/0-64/1/0-65/1/0-66/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/0-67/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/0-68/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/0-69/14/1/2/3/4/5/6/7/8/9/10/11/12/13/15/16/17/18/19/20/0-70/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/0-71/1/2/3/4/5/6/7/8/9/10/13/12/0-72/1/2/3/4/5/6/8/0-73/1/2/3/4/5/6/7/8/9/10/11/12/0-74/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/0-75/2/1/3/4/5/6/0-76/1/2/3/4/5/6/7/8/9/10/0-77/1/2/3/4/0-78/0-79/0-80/1/2/3/4/15/5/6/7/8/9/10/11/12/13/14/0-81/1/2/3/4/5/6/7/8/9/10/0-82/1/2/3/4/5/6/7/8/9/10/11/12/13/0-83/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/0-84/1/2/3/0"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="1"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="1"
+		Budget_show_sub_budget="1"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="1"
+		Budget_currency="1"
+		Budget_show_name="1"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="1"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="2"
+		Report_nb="2"
+		Last_comparison="-1"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Report
+		Nb="3"
+		Name="Produits et charges de l&apos;année 2012"
+		General_sort_type="1/-/2/-/3/-/4/-/5/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="4"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="1"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="0"
+		Financial_year_select="(null)"
+		Date_kind="1"
+		Date_beginning="01/01/2012"
+		Date_end="12/31/2012"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="1"
+		Account_selected="4/-/5/-/9/-/10/-/6/-/3/-/1/-/2/-/8"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="1"
+		Transfer_kind="3"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="1"
+		Categ_use_selection="1"
+		Categ_selected="66/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/0-67/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/0-68/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/0-69/14/1/2/3/4/5/6/7/8/9/10/11/12/13/15/16/17/18/19/20/0-70/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/0-71/1/2/3/4/5/6/7/8/9/10/13/12/0-72/1/2/3/4/5/6/8/0-73/1/2/3/4/5/6/7/8/9/10/11/12/0-74/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/0-75/2/1/3/4/5/6/0-76/1/2/3/4/5/6/7/8/9/10/0-77/1/2/3/4/0-78/0-79/0-80/1/2/3/4/15/5/6/7/8/9/10/11/12/13/14/0-81/1/2/3/4/5/6/7/8/9/10/0-82/1/2/3/4/5/6/7/8/9/10/11/12/13/0-83/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/0-84/1/2/3/0-85/1/2/3/4/5/6/7/8/0-86/1/2/3/0"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="0"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="3"
+		Report_nb="3"
+		Last_comparison="-1"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="11"
+		Report_nb="3"
+		Last_comparison="-1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+</Grisbi>

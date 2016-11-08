@@ -1,0 +1,977 @@
+<?xml version="1.0"?>
+<Grisbi>
+	<General
+		File_version="0.6.0"
+		Grisbi_version="0.9.91"
+		Crypt_file="0"
+		Archive_file="0"
+		File_title="Tests"
+		General_address="Rue Minant 12345  Morzy-les-Gracieuses"
+		Second_general_address="(null)"
+		Date_format="%d/%m/%Y"
+		Decimal_point=","
+		Thousands_separator=" "
+		Party_list_currency_number="1"
+		Category_list_currency_number="1"
+		Budget_list_currency_number="1"
+		Navigation_list_order="0-2-3-4-5-6-7"
+		Scheduler_view="0"
+		Scheduler_custom_number="0"
+		Scheduler_custom_menu="0"
+		Import_interval_search="2"
+		Import_copy_payee_in_note="0"
+		Import_extract_number_for_check="0"
+		Import_fusion_transactions="0"
+		Import_categorie_for_payee="0"
+		Import_fyear_by_value_date="0"
+		Export_file_format="0"
+		Export_files_traitement="0"
+		Reconcile_end_date="0"
+		Use_logo="1"
+		Name_logo="(null)"
+		Is_pixmaps_dir="0"
+		Remind_display_per_account="1"
+		Transactions_view="18-1-3-13-5-6-7-0-0-12-0-9-8-0-0-0-15-0-0-0-0-0-0-0-0-0-0-0"
+		One_line_showed="0"
+		Two_lines_showed="0"
+		Three_lines_showed="0"
+		Remind_form_per_account="0"
+		Transaction_column_width="9-11-41-5-13-13-9"
+		Transaction_column_align="1-1-0-1-2-2-2"
+		Scheduler_column_width="11-13-37-13-13-26-14"
+		Combofix_mixed_sort="0"
+		Combofix_max_item="5"
+		Combofix_case_sensitive="0"
+		Combofix_force_payee="0"
+		Combofix_force_category="0"
+		Automatic_amount_separator="0"
+		CSV_separator=";"
+		CSV_skipped_lines="0-0-0-0-0-0-0-0-0-0"
+		Metatree_sort_transactions="1"
+		Add_archive_in_total_balance="1"
+		Bet_array_column_width="22-29-7-5-38"
+		Bet_capital="1000.00"
+		Bet_currency="1"
+		Bet_taux_annuel="4.000"
+		Bet_index_duree="0"
+		Bet_frais="0.000"
+		Bet_type_taux="1" />
+	<Color
+		Background_color_0_red="55000"
+		Background_color_0_green="55000"
+		Background_color_0_blue="65535"
+		Background_color_1_red="65535"
+		Background_color_1_green="65535"
+		Background_color_1_blue="65535"
+		Couleur_jour_red="55512"
+		Couleur_jour_green="55512"
+		Couleur_jour_blue="55512"
+		Background_scheduled_red="50000"
+		Background_scheduled_green="50000"
+		Background_scheduled_blue="50000"
+		Background_archive_red="15000"
+		Background_archive_green="30000"
+		Background_archive_blue="10000"
+		Selection_red="63000"
+		Selection_green="40000"
+		Selection_blue="40000"
+		Background_split_red="61423"
+		Background_split_green="50629"
+		Background_split_blue="50629"
+		Text_color_0_red="0"
+		Text_color_0_green="0"
+		Text_color_0_blue="0"
+		Text_color_1_red="65535"
+		Text_color_1_green="0"
+		Text_color_1_blue="0"
+		Entry_error_color_red="65535"
+		Entry_error_color_green="0"
+		Entry_error_color_blue="0"
+		Couleur_bet_division_red="64550"
+		Couleur_bet_division_green="65535"
+		Couleur_bet_division_blue="33466"
+		Couleur_bet_future_red="31829"
+		Couleur_bet_future_green="51015"
+		Couleur_bet_future_blue="35908"
+		Couleur_bet_solde_red="2318"
+		Couleur_bet_solde_green="65535"
+		Couleur_bet_solde_blue="60331"
+		Couleur_bet_transfert_red="31868"
+		Couleur_bet_transfert_green="51143"
+		Couleur_bet_transfert_blue="35980" />
+	<Print
+		Draw_lines="1"
+		Draw_column="1"
+		Draw_background="0"
+		Draw_archives="0"
+		Draw_columns_name="1"
+		Draw_title="0"
+		Draw_interval_dates="0"
+		Draw_dates_are_value_dates="0"
+		Font_transactions="sans 6"
+		Font_title="sans 12"
+		Report_font_transactions="sans 6"
+		Report_font_title="sans 12" />
+	<Currency Nb="1" Na="Euro" Co="€" Ico="EUR" Fl="2" />
+	<Currency Nb="2" Na="Dinar tunisien" Co="(null)" Ico="TND" Fl="3" />
+	<Account
+		Name="Emprunt voiture"
+		Id="(null)"
+		Number="2"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="2"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="-20000.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="6"
+		Default_credit_method="6"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="6"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="1"
+		Bet_credit_card="0"
+		Bet_start_date="02/01/2012"
+		Bet_months="60"
+		Bet_capital="22300.00"
+		Bet_taux_annuel="4.690"
+		Bet_frais="0.00"
+		Bet_type_taux="0" />
+	<Account
+		Name="Compte Monsieur"
+		Id="(null)"
+		Number="1"
+		Owner="G.L. Inuit"
+		Kind="0"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="-1"
+		Bank_branch_code="Près de chez moi"
+		Bank_account_number="1122334455"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="1"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="10 Rue du Groenland&amp;#xA;99999 Saquaille"
+		Default_debit_method="3"
+		Default_credit_method="2"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="1/2/3/4/5"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="1"
+		Bet_credit_card="0"
+		Bet_start_date="02/01/2013"
+		Bet_months="3"
+		Bet_UT="0"
+		Bet_auto_inc_month="0"
+		Bet_select_transaction_label="0"
+		Bet_select_scheduled_label="0"
+		Bet_select_futur_label="0"
+		Bet_SD="0"
+		Bet_Fi="0" />
+	<Account
+		Name="Compte Madame"
+		Id="(null)"
+		Number="5"
+		Owner="Capucine De Jardin"
+		Kind="0"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="1000.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="9"
+		Default_credit_method="8"
+		Sort_by_method="1"
+		Neutrals_inside_method="1"
+		Sort_order="7/-7/8/9/10/11"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="1"
+		Bet_credit_card="0"
+		Bet_start_date="02/01/2013"
+		Bet_months="3"
+		Bet_UT="0"
+		Bet_auto_inc_month="1"
+		Bet_select_transaction_label="0"
+		Bet_select_scheduled_label="0"
+		Bet_select_futur_label="0"
+		Bet_SD="0"
+		Bet_Fi="0" />
+	<Account
+		Name="Porte monnaie"
+		Id="(null)"
+		Number="4"
+		Owner="(null)"
+		Kind="1"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="0"
+		Default_credit_method="0"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="(null)"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="Actif"
+		Id="(null)"
+		Number="3"
+		Owner="(null)"
+		Kind="3"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="0"
+		Default_credit_method="0"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="(null)"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="-1" />
+	<Account
+		Name="Livret"
+		Id="(null)"
+		Number="6"
+		Owner="(null)"
+		Kind="0"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="1"
+		Lines_per_transaction="2"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="14"
+		Default_credit_method="13"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="12/13/14/15/16"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="Compte CB DD"
+		Id="(null)"
+		Number="7"
+		Owner="(null)"
+		Kind="2"
+		Currency="1"
+		Path_icon="(null)"
+		Bank="1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="-1800.00"
+		Minimum_authorised_balance="-2000.00"
+		Closed_account="0"
+		Show_marked="0"
+		Show_archives_lines="0"
+		Lines_per_transaction="2"
+		Comment="Compte de gestion de carte bancaire à crédit différé (CB DD)"
+		Owner_address="(null)"
+		Default_debit_method="18"
+		Default_credit_method="17"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="17/18"
+		Ascending_sort="0"
+		Column_sort="1"
+		Sorting_kind_column="18-1-3-13-5-6-0"
+		Form_columns_number="5"
+		Form_lines_number="3"
+		Form_organization="1-6-2-3-13-0-4-7-11-0-14-0-12-0-0-18-0-0-0-0-0-0-0-0"
+		Form_columns_width="12-25-18-21-21-0"
+		Bet_use_budget="1"
+		Bet_credit_card="1"
+		Bet_SD="0"
+		Bet_Fi="0" />
+	<Payment Number="1" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="2" Name="Dépôt" Sign="2" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="3" Name="Carte de crédit" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="4" Name="Prélèvement" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="1" />
+	<Payment Number="5" Name="Chèque" Sign="1" Show_entry="1" Automatic_number="1" Current_number="5000000" Account="1" />
+	<Payment Number="6" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="2" />
+	<Payment Number="7" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="5" />
+	<Payment Number="8" Name="Dépôt" Sign="2" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="5" />
+	<Payment Number="9" Name="Carte de crédit" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="5" />
+	<Payment Number="10" Name="Prélèvement" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="5" />
+	<Payment Number="11" Name="Chèque" Sign="1" Show_entry="1" Automatic_number="1" Current_number="1234567" Account="5" />
+	<Payment Number="12" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="6" />
+	<Payment Number="13" Name="Dépôt" Sign="2" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="6" />
+	<Payment Number="14" Name="Carte de crédit" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="6" />
+	<Payment Number="15" Name="Prélèvement" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="6" />
+	<Payment Number="16" Name="Chèque" Sign="1" Show_entry="1" Automatic_number="1" Current_number="(null)" Account="6" />
+	<Payment Number="17" Name="Virement" Sign="0" Show_entry="1" Automatic_number="0" Current_number="(null)" Account="7" />
+	<Payment Number="18" Name="CB" Sign="1" Show_entry="0" Automatic_number="0" Current_number="(null)" Account="7" />
+	<Transaction Ac="1" Nb="1" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="-500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="17" Ca="0" Sca="0" Br="0" No="Argent du ménage" Pn="3" Pc="(null)" Ma="3" Ar="1" Au="0" Re="2" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="2" Mo="0" />
+	<Transaction Ac="4" Nb="2" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="17" Ca="0" Sca="0" Br="0" No="Argent du ménage" Pn="3" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="1" Mo="0" />
+	<Transaction Ac="1" Nb="3" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-22.00" Exb="0" Exr="0.00" Exf="0.00" Pa="4" Ca="24" Sca="1" Br="0" No="Massage chinois" Pn="3" Pc="(null)" Ma="3" Ar="1" Au="0" Re="2" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="4" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="-270.00" Exb="0" Exr="0.00" Exf="0.00" Pa="5" Ca="23" Sca="3" Br="0" No="Rénovation de la bite d&apos;amarrage" Pn="5" Pc="5000000" Ma="3" Ar="1" Au="0" Re="2" Fi="0" Bu="4" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="5" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="-80.00" Exb="0" Exr="0.00" Exf="0.00" Pa="6" Ca="27" Sca="2" Br="0" No="Deuxième tonte de la pelouse" Pn="11" Pc="1234567" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="6" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="-200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="7" Ca="29" Sca="1" Br="0" No="Frais de Notaire" Pn="5" Pc="5000001" Ma="3" Ar="1" Au="0" Re="2" Fi="0" Bu="5" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="7" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-750.00" Exb="0" Exr="0.00" Exf="0.00" Pa="8" Ca="24" Sca="2" Br="0" No="Couronne de lauriers" Pn="5" Pc="5000002" Ma="3" Ar="1" Au="0" Re="3" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="12" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-22.00" Exb="0" Exr="0.00" Exf="0.00" Pa="4" Ca="24" Sca="1" Br="0" No="Massage chinois" Pn="11" Pc="1234568" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="14" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-360.00" Exb="0" Exr="0.00" Exf="0.00" Pa="11" Ca="28" Sca="1" Br="0" No="Virement Swift" Pn="7" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="15" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="3500.00" Exb="0" Exr="0.00" Exf="0.00" Pa="2" Ca="25" Sca="1" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="3" Ar="1" Au="0" Re="2" Fi="0" Bu="6" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="4" Nb="16" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-50.00" Exb="0" Exr="0.00" Exf="0.00" Pa="19" Ca="23" Sca="1" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="4" Nb="17" Id="(null)" Dt="10/12/2011" Dv="(null)" Cu="1" Am="-15.70" Exb="0" Exr="0.00" Exf="0.00" Pa="13" Ca="23" Sca="3" Br="0" No="Remarquage à la rame" Pn="0" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="4" Nb="18" Id="(null)" Dt="10/12/2011" Dv="(null)" Cu="1" Am="-3.59" Exb="0" Exr="0.00" Exf="0.00" Pa="14" Ca="26" Sca="3" Br="0" No="Grosse miche" Pn="0" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="4" Nb="19" Id="(null)" Dt="10/12/2011" Dv="(null)" Cu="1" Am="-12.84" Exb="0" Exr="0.00" Exf="0.00" Pa="15" Ca="31" Sca="1" Br="0" No="Collants pour ...." Pn="0" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="21" Id="(null)" Dt="10/01/2011" Dv="(null)" Cu="1" Am="15.00" Exb="0" Exr="0.00" Exf="0.00" Pa="1" Ca="25" Sca="2" Br="0" No="Anniversaire du poisson rouget" Pn="8" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="1" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="22" Id="(null)" Dt="10/06/2011" Dv="(null)" Cu="1" Am="-13.85" Exb="0" Exr="0.00" Exf="0.00" Pa="3" Ca="30" Sca="1" Br="0" No="Toilettage de la chatte" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="2" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="23" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="20" Ca="0" Sca="0" Br="0" No="(null)" Pn="7" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="24" Mo="0" />
+	<Transaction Ac="6" Nb="24" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="110.00" Exb="0" Exr="0.00" Exf="0.00" Pa="20" Ca="0" Sca="0" Br="0" No="(null)" Pn="13" Pc="1234569" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="23" Mo="0" />
+	<Transaction Ac="1" Nb="25" Id="(null)" Dt="10/10/2011" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="(null)" Pn="4" Pc="(null)" Ma="3" Ar="1" Au="0" Re="3" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="26" Mo="0" />
+	<Transaction Ac="2" Nb="26" Id="(null)" Dt="10/10/2011" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="(null)" Pn="6" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="25" Mo="0" />
+	<Transaction Ac="5" Nb="27" Id="(null)" Dt="10/07/2011" Dv="(null)" Cu="1" Am="-25.00" Exb="0" Exr="0.00" Exf="0.00" Pa="12" Ca="27" Sca="3" Br="0" No="Rangement de la maison" Pn="7" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="3" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="28" Id="(null)" Dt="10/14/2011" Dv="(null)" Cu="1" Am="-25.00" Exb="0" Exr="0.00" Exf="0.00" Pa="12" Ca="27" Sca="3" Br="0" No="Rangement de la maison" Pn="7" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="3" Sbu="1" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="29" Id="(null)" Dt="10/15/2011" Dv="(null)" Cu="2" Am="-129.000" Exb="1" Exr="1.95" Exf="0.00" Pa="23" Ca="23" Sca="4" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="30" Id="(null)" Dt="09/30/2011" Dv="(null)" Cu="1" Am="1500.00" Exb="0" Exr="1.95" Exf="0.00" Pa="24" Ca="25" Sca="2" Br="0" No="(null)" Pn="2" Pc="(null)" Ma="3" Ar="1" Au="0" Re="1" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="31" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-147.25" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="0" Sca="0" Br="1" No="Bazar des Unes aux Diers" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="32" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-83.49" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="26" Sca="2" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="31" />
+	<Transaction Ac="5" Nb="33" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-20.00" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="26" Sca="1" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="31" />
+	<Transaction Ac="5" Nb="34" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-13.76" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="27" Sca="1" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="31" />
+	<Transaction Ac="5" Nb="35" Id="(null)" Dt="10/05/2011" Dv="(null)" Cu="1" Am="-30.00" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="23" Sca="2" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="1" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="31" />
+	<Transaction Ac="1" Nb="36" Id="(null)" Dt="11/10/2011" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="37" Mo="0" />
+	<Transaction Ac="2" Nb="37" Id="(null)" Dt="11/10/2011" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="36" Mo="0" />
+	<Transaction Ac="1" Nb="38" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="39" Mo="0" />
+	<Transaction Ac="2" Nb="39" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="38" Mo="0" />
+	<Transaction Ac="5" Nb="40" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-147.25" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="0" Sca="0" Br="1" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="5" Nb="41" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-83.49" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="26" Sca="2" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="40" />
+	<Transaction Ac="5" Nb="42" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-20.00" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="26" Sca="1" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="40" />
+	<Transaction Ac="5" Nb="43" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-13.76" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="27" Sca="1" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="40" />
+	<Transaction Ac="5" Nb="44" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="-30.00" Exb="0" Exr="0.00" Exf="0.00" Pa="9" Ca="23" Sca="2" Br="0" No="(null)" Pn="9" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="40" />
+	<Transaction Ac="5" Nb="45" Id="(null)" Dt="12/10/2011" Dv="(null)" Cu="1" Am="10.00" Exb="0" Exr="0.00" Exf="0.00" Pa="16" Ca="26" Sca="3" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="46" Id="(null)" Dt="01/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="47" Mo="0" />
+	<Transaction Ac="2" Nb="47" Id="(null)" Dt="01/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="46" Mo="0" />
+	<Transaction Ac="1" Nb="48" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="49" Mo="0" />
+	<Transaction Ac="2" Nb="49" Id="(null)" Dt="02/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="48" Mo="0" />
+	<Transaction Ac="4" Nb="50" Id="(null)" Dt="02/25/2012" Dv="(null)" Cu="1" Am="-10.00" Exb="0" Exr="0.00" Exf="0.00" Pa="2" Ca="23" Sca="2" Br="0" No="(null)" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="51" Id="(null)" Dt="03/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="52" Mo="0" />
+	<Transaction Ac="2" Nb="52" Id="(null)" Dt="03/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="51" Mo="0" />
+	<Transaction Ac="1" Nb="53" Id="(null)" Dt="04/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="54" Mo="0" />
+	<Transaction Ac="2" Nb="54" Id="(null)" Dt="04/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="53" Mo="0" />
+	<Transaction Ac="1" Nb="55" Id="(null)" Dt="05/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="56" Mo="0" />
+	<Transaction Ac="2" Nb="56" Id="(null)" Dt="05/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="55" Mo="0" />
+	<Transaction Ac="1" Nb="57" Id="(null)" Dt="06/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="58" Mo="0" />
+	<Transaction Ac="2" Nb="58" Id="(null)" Dt="06/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="57" Mo="0" />
+	<Transaction Ac="1" Nb="59" Id="(null)" Dt="07/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="60" Mo="0" />
+	<Transaction Ac="2" Nb="60" Id="(null)" Dt="07/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="59" Mo="0" />
+	<Transaction Ac="1" Nb="61" Id="(null)" Dt="08/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="62" Mo="0" />
+	<Transaction Ac="2" Nb="62" Id="(null)" Dt="08/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="61" Mo="0" />
+	<Transaction Ac="1" Nb="63" Id="(null)" Dt="09/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="64" Mo="0" />
+	<Transaction Ac="2" Nb="64" Id="(null)" Dt="09/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="63" Mo="0" />
+	<Transaction Ac="1" Nb="65" Id="(null)" Dt="10/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="66" Mo="0" />
+	<Transaction Ac="2" Nb="66" Id="(null)" Dt="10/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="65" Mo="0" />
+	<Transaction Ac="1" Nb="67" Id="(null)" Dt="11/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="68" Mo="0" />
+	<Transaction Ac="2" Nb="68" Id="(null)" Dt="11/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="67" Mo="0" />
+	<Transaction Ac="1" Nb="69" Id="(null)" Dt="12/10/2012" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="70" Mo="0" />
+	<Transaction Ac="2" Nb="70" Id="(null)" Dt="12/10/2012" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="69" Mo="0" />
+	<Transaction Ac="1" Nb="71" Id="(null)" Dt="01/10/2013" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="72" Mo="0" />
+	<Transaction Ac="2" Nb="72" Id="(null)" Dt="01/10/2013" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="71" Mo="0" />
+	<Transaction Ac="7" Nb="73" Id="(null)" Dt="01/10/2013" Dv="(null)" Cu="1" Am="-52.00" Exb="0" Exr="0.00" Exf="0.00" Pa="2" Ca="23" Sca="2" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="74" Id="(null)" Dt="02/10/2013" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="75" Mo="0" />
+	<Transaction Ac="2" Nb="75" Id="(null)" Dt="02/10/2013" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="74" Mo="0" />
+	<Transaction Ac="7" Nb="76" Id="(null)" Dt="01/25/2013" Dv="(null)" Cu="1" Am="52.00" Exb="0" Exr="0.00" Exf="0.00" Pa="26" Ca="32" Sca="0" Br="0" No="(null)" Pn="18" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="77" Id="(null)" Dt="03/10/2013" Dv="(null)" Cu="1" Am="-416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="4" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="2" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="78" Mo="0" />
+	<Transaction Ac="2" Nb="78" Id="(null)" Dt="03/10/2013" Dv="(null)" Cu="1" Am="416.67" Exb="0" Exr="0.00" Exf="0.00" Pa="21" Ca="0" Sca="0" Br="0" No="Echéance de remboursement emprunt pour la voiture" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="2" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="77" Mo="0" />
+	<Scheduled Nb="2" Dt="04/10/2013" Ac="1" Am="-416.67" Cu="1" Pa="21" Ca="0" Sca="0" Tra="2" Pn="4" CPn="6" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="Echéance de remboursement emprunt pour la voiture" Au="1" Pe="2" Pei="0" Pep="0" Dtl="10/10/2015" Br="0" Mo="0" />
+	<Scheduled Nb="3" Dt="10/21/2011" Ac="5" Am="-25.00" Cu="1" Pa="12" Ca="27" Sca="3" Tra="0" Pn="7" CPn="0" Pc="(null)" Fi="0" Bu="3" Sbu="1" No="Rangement de la maison" Au="0" Pe="1" Pei="0" Pep="0" Dtl="(null)" Br="0" Mo="0" />
+	<Party Nb="1" Na="Huguette Lefacteur" Txt="(null)" Search="(null)" />
+	<Party Nb="2" Na="Editions Nialley" Txt="(null)" Search="(null)" />
+	<Party Nb="3" Na="Raquel Merdiestruck" Txt="(null)" Search="(null)" />
+	<Party Nb="4" Na="Tchang Padmain - Tchang Savieng" Txt="(null)" Search="(null)" />
+	<Party Nb="5" Na="Djemal Ozizi" Txt="(null)" Search="(null)" />
+	<Party Nb="6" Na="Juan Mortaïm" Txt="(null)" Search="(null)" />
+	<Party Nb="7" Na="Henri Ponsat-Vautré et Honoré Dutans" Txt="(null)" Search="(null)" />
+	<Party Nb="8" Na="Abderramane Tafrez" Txt="(null)" Search="(null)" />
+	<Party Nb="9" Na="Henriette Dumant" Txt="(null)" Search="(null)" />
+	<Party Nb="10" Na="DAB Orlay Caupains" Txt="(null)" Search="(null)" />
+	<Party Nb="11" Na="Jean-Philippe Herbien" Txt="(null)" Search="(null)" />
+	<Party Nb="12" Na="Ahmed Donsaha-Saplass" Txt="(null)" Search="(null)" />
+	<Party Nb="13" Na="Elvire Sacuty" Txt="(null)" Search="(null)" />
+	<Party Nb="14" Na="Lepain Sylvestre" Txt="(null)" Search="(null)" />
+	<Party Nb="15" Na="Sebastienne Tousseul" Txt="(null)" Search="(null)" />
+	<Party Nb="16" Na="Toto" Txt="(null)" Search="(null)" />
+	<Party Nb="17" Na="Liquidités" Txt="(null)" Search="(null)" />
+	<Party Nb="18" Na="Chevalier Tarauld" Txt="(null)" Search="(null)" />
+	<Party Nb="19" Na="DAB Orlay-Caupains" Txt="(null)" Search="(null)" />
+	<Party Nb="20" Na="Alimentation du compte sur livret" Txt="(null)" Search="(null)" />
+	<Party Nb="21" Na="Crédit Bitoire" Txt="(null)" Search="(null)" />
+	<Party Nb="22" Na="Essai" Txt="(null)" Search="(null)" />
+	<Party Nb="23" Na="Moktar Ritto" Txt="(null)" Search="(null)" />
+	<Party Nb="24" Na="Solde d&apos;ouverture" Txt="(null)" Search="(null)" />
+	<Party Nb="25" Na="GRISBI RAZ CB DD" Txt="Remise à zéro automatique du solde du Compte CB DD" Search="(null)" />
+	<Party Nb="26" Na="GRISBI DÉBIT COMPTE PRINCIPAL" Txt="Débit automatique du montant du solde du Compte CB DD à partir du compte principal (= Compte Madame)" Search="(null)" />
+	<Category Nb="23" Na="Loisirs" Kd="1" />
+	<Sub_category Nbc="23" Nb="1" Na="Bar" />
+	<Sub_category Nbc="23" Nb="2" Na="Lecture" />
+	<Sub_category Nbc="23" Nb="3" Na="Voile" />
+	<Sub_category Nbc="23" Nb="4" Na="Spectacles" />
+	<Category Nb="24" Na="Santé" Kd="1" />
+	<Sub_category Nbc="24" Nb="1" Na="Kinésithérapeute" />
+	<Sub_category Nbc="24" Nb="2" Na="Dentiste" />
+	<Category Nb="25" Na="Revenus" Kd="0" />
+	<Sub_category Nbc="25" Nb="1" Na="Salaire traduction" />
+	<Sub_category Nbc="25" Nb="2" Na="Divers" />
+	<Category Nb="26" Na="Alimentation" Kd="1" />
+	<Sub_category Nbc="26" Nb="1" Na="Boissons" />
+	<Sub_category Nbc="26" Nb="2" Na="Epicerie" />
+	<Sub_category Nbc="26" Nb="3" Na="Boulangerie" />
+	<Category Nb="27" Na="Logement" Kd="1" />
+	<Sub_category Nbc="27" Nb="1" Na="Produits d&apos;entretien" />
+	<Sub_category Nbc="27" Nb="2" Na="Jardin" />
+	<Sub_category Nbc="27" Nb="3" Na="Salarié à domicile" />
+	<Category Nb="28" Na="Frais divers" Kd="1" />
+	<Sub_category Nbc="28" Nb="1" Na="Cadeaux" />
+	<Category Nb="29" Na="Frais financiers" Kd="1" />
+	<Sub_category Nbc="29" Nb="1" Na="Divers" />
+	<Category Nb="30" Na="Animaux domestiques" Kd="1" />
+	<Sub_category Nbc="30" Nb="1" Na="Toilettage" />
+	<Category Nb="31" Na="Soins" Kd="1" />
+	<Sub_category Nbc="31" Nb="1" Na="Habillement" />
+	<Category Nb="32" Na="Raz CB DD" Kd="0" />
+	<Category Nb="33" Na="Débit CB DD" Kd="1" />
+	<Budgetary Nb="1" Na="Cadeaux" Kd="1" />
+	<Budgetary Nb="2" Na="Animaux domestiques" Kd="1" />
+	<Budgetary Nb="3" Na="Habitation" Kd="1" />
+	<Sub_budgetary Nbb="3" Nb="1" Na="Entretien" />
+	<Budgetary Nb="4" Na="Parents" Kd="0" />
+	<Budgetary Nb="5" Na="Prêts" Kd="1" />
+	<Budgetary Nb="6" Na="Revenus et Salaires" Kd="0" />
+	<Currency_link Nb="1" Cu1="1" Cu2="2" Ex="1.95" Modified_date="10/26/2011" Fl="0" />
+	<Bank Nb="1" Na="Banque Route" Co="98765" BIC="(null)" Adr="Rue Hiné  12345  Morzy-les-Gracieuses" Tel="01 69 31 01 01" Mail="banqueroute@arnaque.com" Web="www.arnaque.com" Nac="Luc Ratif" Faxc="01 69 31 01 99" Telc="01 69 31 01 02" Mailc="luc.ratif@arnaque.com" Rem="Absent le mercredi" />
+	<Bank Nb="2" Na="Crédit Bitoire" Co="(null)" BIC="(null)" Adr="(null)" Tel="(null)" Mail="(null)" Web="(null)" Nac="(null)" Faxc="(null)" Telc="(null)" Mailc="(null)" Rem="(null)" />
+	<Bank Nb="3" Na="Banque Ize" Co="99887766" BIC="(null)" Adr="Rue de la Patinoire 99999 Saquaille" Tel="(null)" Mail="(null)" Web="(null)" Nac="O.Léonce Laipelle" Faxc="(null)" Telc="(null)" Mailc="(null)" Rem="(null)" />
+	<Bank Nb="4" Na="Banque Haite" Co="(null)" BIC="(null)" Adr="(null)" Tel="(null)" Mail="(null)" Web="(null)" Nac="(null)" Faxc="(null)" Telc="(null)" Mailc="(null)" Rem="(null)" />
+	<Bank Nb="5" Na="Compte CB DD" Co="(null)" BIC="(null)" Adr="(null)" Tel="(null)" Mail="(null)" Web="(null)" Nac="(null)" Faxc="(null)" Telc="(null)" Mailc="(null)" Rem="(null)" />
+	<Financial_year Nb="1" Na="Nouvel exercice" Bdte="01/01/2012" Edte="12/31/2012" Sho="1" />
+	<Financial_year Nb="2" Na="Nouvel exercice" Bdte="01/01/2013" Edte="12/31/2013" Sho="1" />
+	<Archive Nb="1" Na="Archive du 30/09/2011 au 30/10/2011" Bdte="09/30/2011" Edte="10/30/2011" Fye="0" Rep="(null)" />
+	<Reconcile Nb="1" Na="Monsieur1" Acc="1" Idate="(null)" Fdate="09/30/2011" Ibal="0.00" Fbal="1500.00" />
+	<Reconcile Nb="2" Na="Monsieur2" Acc="1" Idate="09/30/2011" Fdate="10/06/2011" Ibal="1500.00" Fbal="4008.00" />
+	<Reconcile Nb="3" Na="Monsieur3" Acc="1" Idate="10/06/2011" Fdate="10/30/2011" Ibal="4008.00" Fbal="2841.33" />
+	<Bet Ddte="1" Bet_deb_cash_account_option="0"/>
+	<Bet_transfert Nb="1" Dt="03/02/2013" Ac="5" Ty="0" Ra="7" Rt="0" Dd="1" Dtb="02/20/2013" Pa="26" Pn="10" Ca="33" Sca="0" Bu="0" Sbu="0" CPa="25" CCa="32" CSca="0" CBu="0" CSbu="0" />
+	<Bet_graph prefs="forecast_prefs:0:1:0:1:2:0:0:90:50:1:0:0" />
+	<Bet_graph prefs="historical_prefs:0:1:0:1:2:0:0:90:50:1:0:0" />
+	<Report
+		Nb="1"
+		Name="Revenus et dépenses du mois dernier"
+		General_sort_type="1/-/2/-/3/-/4/-/5/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="1"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="0"
+		Financial_year_select="(null)"
+		Date_kind="7"
+		Date_beginning="(null)"
+		Date_end="(null)"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="0"
+		Account_selected="(null)"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="0"
+		Transfer_kind="2"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="1"
+		Categ_use_selection="0"
+		Categ_selected="(null)"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="0"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="1"
+		Report_nb="1"
+		Last_comparison="0"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="1"
+		Report_nb="1"
+		Last_comparison="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+	<Report
+		Nb="2"
+		Name="Revenus et dépenses du mois en cours"
+		General_sort_type="1/-/2/-/3/-/4/-/5/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="1"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="0"
+		Financial_year_select="(null)"
+		Date_kind="3"
+		Date_beginning="(null)"
+		Date_end="(null)"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="0"
+		Account_selected="(null)"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="0"
+		Transfer_kind="2"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="1"
+		Categ_use_selection="0"
+		Categ_selected="(null)"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="0"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="2"
+		Report_nb="2"
+		Last_comparison="0"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="2"
+		Report_nb="2"
+		Last_comparison="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+	<Report
+		Nb="3"
+		Name="Budget annuel"
+		General_sort_type="1/-/2/-/3/-/4/-/5/-/6"
+		Show_r="0"
+		Show_transaction="0"
+		Show_transaction_amount="1"
+		Show_transaction_nb="0"
+		Show_transaction_date="0"
+		Show_transaction_value_date="0"
+		Show_transaction_payee="0"
+		Show_transaction_categ="0"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="1"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="0"
+		Financial_year_select="(null)"
+		Date_kind="4"
+		Date_beginning="(null)"
+		Date_end="(null)"
+		Split_by_date="1"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="1"
+		Account_selected="1"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="0"
+		Transfer_kind="0"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="1"
+		Categ_use_selection="0"
+		Categ_selected="(null)"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="1"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="1"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="1"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="5"
+		Report_nb="3"
+		Last_comparison="-1"
+		Object="0"
+		Operator="0"
+		Text="Tafrez"
+		Use_text="1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Text_comparison
+		Comparison_number="6"
+		Report_nb="3"
+		Last_comparison="0"
+		Object="6"
+		Operator="0"
+		Text="Couronne"
+		Use_text="1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="6"
+		Report_nb="3"
+		Last_comparison="-1"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+	<Report
+		Nb="4"
+		Name="État vierge"
+		General_sort_type="1/-/2/-/3/-/4/-/5/-/6"
+		Show_r="0"
+		Show_transaction="1"
+		Show_transaction_amount="0"
+		Show_transaction_nb="0"
+		Show_transaction_date="1"
+		Show_transaction_value_date="1"
+		Show_transaction_payee="1"
+		Show_transaction_categ="1"
+		Show_transaction_sub_categ="0"
+		Show_transaction_payment="0"
+		Show_transaction_budget="0"
+		Show_transaction_sub_budget="0"
+		Show_transaction_chq="0"
+		Show_transaction_note="0"
+		Show_transaction_voucher="0"
+		Show_transaction_reconcile="0"
+		Show_transaction_bank="0"
+		Show_transaction_fin_year="0"
+		Show_transaction_sort_type="0"
+		Show_columns_titles="0"
+		Show_title_column_kind="0"
+		Show_exclude_split_child="0"
+		Show_split_amounts="1"
+		Currency_general="1"
+		Report_in_payees="0"
+		Report_can_click="0"
+		Financial_year_used="0"
+		Financial_year_kind="0"
+		Financial_year_select="(null)"
+		Date_kind="0"
+		Date_beginning="(null)"
+		Date_end="(null)"
+		Split_by_date="0"
+		Split_date_period="0"
+		Split_by_fin_year="0"
+		Split_day_beginning="0"
+		Account_use_selection="0"
+		Account_selected="(null)"
+		Account_group_transactions="0"
+		Account_show_amount="0"
+		Account_show_name="0"
+		Transfer_kind="2"
+		Transfer_selected_accounts="(null)"
+		Transfer_exclude_transactions="0"
+		Categ_use="1"
+		Categ_use_selection="0"
+		Categ_selected="(null)"
+		Categ_show_amount="1"
+		Categ_show_sub_categ="1"
+		Categ_show_without_sub_categ="0"
+		Categ_show_sub_categ_amount="1"
+		Categ_currency="1"
+		Categ_show_name="1"
+		Budget_use="0"
+		Budget_use_selection="0"
+		Budget_selected="(null)"
+		Budget_show_amount="0"
+		Budget_show_sub_budget="0"
+		Budget_show_without_sub_budget="0"
+		Budget_show_sub_budget_amount="0"
+		Budget_currency="1"
+		Budget_show_name="0"
+		Payee_use="0"
+		Payee_use_selection="0"
+		Payee_selected="(null)"
+		Payee_show_amount="0"
+		Payee_currency="1"
+		Payee_show_name="0"
+		Amount_currency="1"
+		Amount_exclude_null="1"
+		Payment_method_use="0"
+		Payment_method_list="(null)"
+		Use_text="0"
+		Use_amount="0" />
+	<Text_comparison
+		Comparison_number="7"
+		Report_nb="4"
+		Last_comparison="0"
+		Object="0"
+		Operator="0"
+		Text="(null)"
+		Use_text="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0"
+		Amount_2="0" />
+	<Amount_comparison
+		Comparison_number="7"
+		Report_nb="4"
+		Last_comparison="0"
+		Comparison_1="0"
+		Link_1_2="3"
+		Comparison_2="0"
+		Amount_1="0.00"
+		Amount_2="0.00" />
+	<Logo
+		Image="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" />
+</Grisbi>
