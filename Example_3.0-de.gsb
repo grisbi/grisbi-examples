@@ -2,10 +2,10 @@
 <Grisbi>
 	<General
 		File_version="2.0.0"
-		Grisbi_version="3.0.3"
+		Grisbi_version="3.0.4"
 		Crypt_file="0"
 		Archive_file="0"
-		File_title="Beispiel für die Verwendung von Grisbi v3"
+		File_title="Beispiel"
 		Use_icons_file_dir="0"
 		General_address="Musterstraße 17 12345 Musterstadt"
 		Second_general_address="(null)"
@@ -48,7 +48,7 @@
 		Transactions_view="18-1-3-13-5-6-7-0-0-12-0-9-8-0-0-0-15-0-0-0-0-0-0-0-0-0-0-0"
 		Two_lines_showed="0"
 		Three_lines_showed="0"
-		Transaction_column_width="11-9-31-9-13-9-18"
+		Transaction_column_width="12-11-29-11-14-11-12"
 		Transaction_column_align="1-1-0-1-2-2-2"
 		Scheduler_column_width="11-27-26-12-12-6-12"
 		Combofix_mixed_sort="0"
@@ -160,7 +160,7 @@
 		Sorting_kind_column="18-1-3-13-5-6-7"
 		Bet_use_budget="0" />
 	<Account
-		Name="Sparbuch Bawag / Bawak P.S.K. [Bankwesen]"
+		Name="Sparbuch Bawag - Bawak P.S.K. [Bankwesen]"
 		Id="(null)"
 		Number="5"
 		Owner="(null)"
@@ -441,12 +441,15 @@
 	<Transaction Ac="4" Nb="604" Id="(null)" Dt="04/05/2024" Dv="(null)" Cu="1" Am="632.45" Exb="0" Exr="0.00" Exf="0.00" Pa="3" Ca="0" Sca="0" Br="0" No="(null)" Pn="16" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="603" Mo="0" />
 	<Transaction Ac="2" Nb="605" Id="(null)" Dt="04/05/2024" Dv="(null)" Cu="1" Am="-476.75" Exb="0" Exr="0.00" Exf="0.00" Pa="3" Ca="9" Sca="4" Br="0" No="(null)" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="602" />
 	<Transaction Ac="2" Nb="606" Id="(null)" Dt="04/05/2024" Dv="(null)" Cu="1" Am="-66.67" Exb="0" Exr="0.00" Exf="0.00" Pa="3" Ca="3" Sca="7" Br="0" No="(null)" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="602" />
+	<Transaction Ac="2" Nb="607" Id="(null)" Dt="05/01/2024" Dv="(null)" Cu="1" Am="1200.00" Exb="0" Exr="0.00" Exf="0.00" Pa="30" Ca="22" Sca="5" Br="0" No="(null)" Pn="6" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="624" Id="(null)" Dt="04/15/2024" Dv="(null)" Cu="1" Am="-23.99" Exb="0" Exr="0.00" Exf="0.00" Pa="6" Ca="12" Sca="16" Br="0" No="Abonnement" Pn="8" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="625" Id="(null)" Dt="05/15/2024" Dv="(null)" Cu="1" Am="-23.99" Exb="0" Exr="0.00" Exf="0.00" Pa="6" Ca="12" Sca="16" Br="0" No="Abonnement" Pn="8" Pc="(null)" Ma="0" Ar="0" Au="1" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
 	<Scheduled Nb="1" Dt="05/05/2024" Ac="2" Am="-1175.87" Cu="1" Pa="3" Ca="0" Sca="0" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="1" Mo="0" />
-	<Scheduled Nb="2" Dt="05/05/2024" Ac="2" Am="-609.2" Cu="1" Pa="3" Ca="0" Sca="0" Tra="4" Pn="6" CPn="16" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="0" Mo="1" />
-	<Scheduled Nb="3" Dt="05/05/2024" Ac="2" Am="-500.0" Cu="1" Pa="3" Ca="9" Sca="4" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="0" Mo="1" />
+	<Scheduled Nb="2" Dt="05/05/2024" Ac="2" Am="-609.20" Cu="1" Pa="3" Ca="0" Sca="0" Tra="4" Pn="6" CPn="16" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="Der Betrag ist entsprechend der Tilgungstabelle anzupassen" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="0" Mo="1" />
+	<Scheduled Nb="3" Dt="05/05/2024" Ac="2" Am="-500.00" Cu="1" Pa="3" Ca="9" Sca="4" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="Der Betrag ist entsprechend der Tilgungstabelle anzupassen" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="0" Mo="1" />
 	<Scheduled Nb="4" Dt="05/05/2024" Ac="2" Am="-66.67" Cu="1" Pa="3" Ca="3" Sca="7" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="02/05/2043" Br="0" Mo="1" />
-	<Scheduled Nb="5" Dt="05/01/2024" Ac="2" Am="1200.00" Cu="1" Pa="30" Ca="22" Sca="5" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="1" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="(null)" Br="0" Mo="0" />
-	<Scheduled Nb="6" Dt="04/15/2024" Ac="2" Am="-23.99" Cu="1" Pa="6" Ca="12" Sca="16" Tra="0" Pn="8" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="Abonnement" Au="1" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="(null)" Br="0" Mo="0" />
+	<Scheduled Nb="5" Dt="06/01/2024" Ac="2" Am="1200.00" Cu="1" Pa="30" Ca="22" Sca="5" Tra="0" Pn="6" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="(null)" Br="0" Mo="0" />
+	<Scheduled Nb="6" Dt="06/15/2024" Ac="2" Am="-23.99" Cu="1" Pa="6" Ca="12" Sca="16" Tra="0" Pn="8" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="Abonnement" Au="0" Fd="0" Pe="2" Pei="0" Pep="0" Dtl="(null)" Br="0" Mo="0" />
 	<Scheduled Nb="7" Dt="06/16/2024" Ac="2" Am="-116.27" Cu="1" Pa="7" Ca="12" Sca="8" Tra="0" Pn="0" CPn="0" Pc="(null)" Fi="0" Bu="0" Sbu="0" No="(null)" Au="0" Fd="0" Pe="6" Pei="2" Pep="6" Dtl="(null)" Br="0" Mo="0" />
 	<Party Nb="3" Na="Wohnbaudarlehen" Txt="Kredit Wohnraum" Search="(null)" IgnCase="0" UseRegex="0" />
 	<Party Nb="6" Na="Telekom" Txt="(null)" Search="(null)" IgnCase="0" UseRegex="0" />
